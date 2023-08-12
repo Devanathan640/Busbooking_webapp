@@ -1,9 +1,4 @@
-﻿@* Title       :Online Bus Booking System
-Author      :Abinash(IFET)
-Created at  :01-03-2023
-Updated at  :13-03-2023
-Reviewed by :
-Reviewed at : *@
+﻿
 @model Database
 
 @using Microsoft.AspNetCore.Http
@@ -18,19 +13,19 @@ Reviewed at : *@
 </head>
 <body style="margin-bottom: 50px;">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3 navbar-red" >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3 navbar-red">
             <div class="container-fluid" >
                 @if (User.Identity.IsAuthenticated)
                 {
                   <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
-                    <img style="width:60px;" src="~/images/bus logo1.png" alt="LOGO">
+                    <img style="width:60px;" src="~/images/logo.png" alt="LOGO">
                 </a>
                    
                 }
                 else
                 {
                       <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img style="width:60px;" src="~/images/bus logo1.png" alt="LOGO">
+                    <img style="width:60px;" src="~/images/logo.png" alt="LOGO">
                 </a>
                 }
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" >
@@ -45,17 +40,20 @@ Reviewed at : *@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="contact"><b>contact</b></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="displayHistory"><b>Booking History</b></a>
+                        </li>
                          }
                         </ul>
                         <div>
                             <ul class="navbar-nav flex-grow-1">
                                 
                         @if(User.Identity.IsAuthenticated){
-                             <li class="nav-item">
+                             @* <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
                                   <img style="width:20px;" src="~/images/notification.png" alt="notification">
                 </a>
-                        </li>
+                        </li> *@
                             
                             <li class="nav-item">
                             <a class="nav-link text-dark "  style="text-align:right;" asp-controller="Home" asp-action="logOut"><b>Logout</b></a>

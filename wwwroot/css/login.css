@@ -57,7 +57,7 @@
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff; }
+    background-color: #f19a9a; }
   
   [tabindex="-1"]:focus {
     outline: 0 !important; }
@@ -133,7 +133,7 @@
     top: -.5em; }
   
   a {
-    color: #007bff;
+    color:#af1616;
     text-decoration: none;
     background-color: transparent; }
     a:hover {
@@ -8143,13 +8143,13 @@
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    color: #8d448b; }
+    color: ; }
     a:hover, a:focus {
       text-decoration: none !important;
       outline: none !important;
       -webkit-box-shadow: none;
       box-shadow: none;
-      color: #8d448b; }
+      color: #af1616; }
   
   h1, h2, h3, h4, h5,
   .h1, .h2, .h3, .h4, .h5 {
@@ -8162,7 +8162,9 @@
     background: #8d448b !important; }
   
   .ftco-section {
-    padding: 7em 0; }
+    padding: 7em 0;
+  background-color: #ff7c7c;
+margin-top: -2%; }
   
   .ftco-no-pt {
     padding-top: 0; }
@@ -8189,11 +8191,11 @@
     .login-wrap h3 {
       font-weight: 700;
       font-size: 20px;
-      color: #8d448b; }
+      color: #af1616; }
     .login-wrap .icon {
       width: 80px;
       height: 80px;
-      background: #8d448b;
+      background: #af1616;
       border-radius: 50%;
       font-size: 30px;
       margin: 0 auto;
@@ -8281,9 +8283,7 @@
         -webkit-transition: none;
         -o-transition: none;
         transition: none; } }
-  
-  /* Show the checkmark when checked */
-  .checkbox-wrap input:checked ~ .checkmark:after {
+    .checkbox-wrap input:checked ~ .checkmark:after {
     display: block;
     content: "\f14a";
     font-family: "FontAwesome";
@@ -8291,9 +8291,9 @@
   
   /* Style the checkmark/indicator */
   .checkbox-primary {
-    color: #8d448b; }
+    color: #af1616; }
     .checkbox-primary input:checked ~ .checkmark:after {
-      color: #8d448b; }
+      color: #af1616; }
   
   .btn {
     cursor: pointer;
@@ -8304,11 +8304,12 @@
     .btn:hover, .btn:active, .btn:focus {
       outline: none; }
     .btn.btn-primary {
-      background: #8d448b !important;
+      background: #af1616 !important;
       border: 1px solid #8d448b !important;
-      color: #fff !important; }
+      color: #fff !important; 
+    }
       .btn.btn-primary:hover {
-        border: 1px solid #8d448b;
+        border: 3px solid black;
         background: transparent;
         color: #8d448b; }
       .btn.btn-primary.btn-outline-primary {

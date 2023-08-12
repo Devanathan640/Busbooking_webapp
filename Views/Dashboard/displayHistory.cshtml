@@ -1,0 +1,100 @@
+@model List<FirstApp.Models.BookingHistory> 
+@{
+    Layout=null;
+}
+
+
+@using Microsoft.AspNetCore.Http
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Bus Booking</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FirstApp.styles.css" asp-append-version="true" />
+</head>
+<body style="margin-bottom: 50px;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow mb-3 navbar-red" >
+            <div class="container-fluid" >
+                @if (User.Identity.IsAuthenticated)
+                {
+                  <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
+                    <img style="width:60px;" src="~/images/bus logo1.png" alt="LOGO">
+                </a>
+                   
+                }
+                else
+                {
+                      <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img style="width:60px;" src="~/images/bus logo1.png" alt="LOGO">
+                </a>
+                }
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" >
+                    <ul class="navbar-nav flex-grow-1">
+                         @if(User.Identity.IsAuthenticated){
+                       <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="map"><b>Map</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="showProfile"><b>Profile</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="contact"><b>contact</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="displayHistory"><b>Booking History</b></a>
+                        </li>
+                         }
+                        </ul>
+                        <div>
+                            <ul class="navbar-nav flex-grow-1">
+                                
+                        @if(User.Identity.IsAuthenticated){
+                             <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
+                                  <img style="width:20px;" src="~/images/notification.png" alt="notification">
+                </a>
+                        </li>
+                            
+                            <li class="nav-item">
+                            <a class="nav-link text-dark "  style="text-align:right;" asp-controller="Home" asp-action="logOut"><b>Logout</b></a>
+                        </li>
+                        }
+                        else{
+                            <li class="nav-item">
+                            <a class="nav-link text-dark "  style="text-align:right;" asp-controller="Employee" asp-action="login"><b>Login</b></a>
+                        </li>
+                        }
+                            </ul>
+                           
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+
+<h1>History</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Destination</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model) {
+            <tr>
+                <td>@employee.UserId</td>
+                <td>@employee.Name</td> 
+                <td>@employee.Date</td>     
+                <td>@employee.Destination</td> 
+            </tr>
+        }
+    </tbody>
+</table>

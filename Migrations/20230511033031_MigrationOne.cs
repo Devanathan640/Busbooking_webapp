@@ -5,10 +5,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace FirstApp.Migrations
 {
-    public partial class FirstMigration : Migration
+    public partial class MigrationOne : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "BookingHistories",
+                columns: table => new
+                {
+                    BookingId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Date = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Destination = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BookingHistories", x => x.BookingId);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Employees",
                 columns: table => new
@@ -28,6 +44,9 @@ namespace FirstApp.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "BookingHistories");
+
             migrationBuilder.DropTable(
                 name: "Employees");
         }

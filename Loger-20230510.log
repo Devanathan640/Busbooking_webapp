@@ -1,0 +1,1479 @@
+2023-05-10 22:24:20.159 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 22:24:20.371 +05:30 [INF] Now listening on: http://localhost:5260
+2023-05-10 22:24:20.381 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 22:24:20.382 +05:30 [INF] Hosting environment: Development
+2023-05-10 22:24:20.382 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-05-10 22:24:22.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-05-10 22:24:22.820 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-10 22:24:23.130 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:24:23.234 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:24:23.280 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:24:23.877 +05:30 [INF] Executed ViewResult - view Index executed in 618.3179ms.
+2023-05-10 22:24:23.883 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 646.725ms
+2023-05-10 22:24:23.883 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:24:23.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 1271.3245ms
+2023-05-10 22:24:24.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/css/site.css?v=d60rDsdHP7VsCgC3I2jKsrW_u1XCW_p0JjFfedBmmoU - -
+2023-05-10 22:24:24.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-05-10 22:24:24.199 +05:30 [INF] The file /css/site.css was not modified
+2023-05-10 22:24:24.200 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/css/site.css?v=d60rDsdHP7VsCgC3I2jKsrW_u1XCW_p0JjFfedBmmoU - - - 304 - text/css 148.0675ms
+2023-05-10 22:24:24.201 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2023-05-10 22:24:24.202 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 125.3333ms
+2023-05-10 22:24:24.320 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:24:24.325 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-05-10 22:24:24.326 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 6.6304ms
+2023-05-10 22:24:24.326 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2023-05-10 22:24:24.327 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - text/javascript 1.5118ms
+2023-05-10 22:24:24.389 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-05-10 22:24:24.390 +05:30 [INF] The file /js/site.js was not modified
+2023-05-10 22:24:24.390 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 304 - text/javascript 0.8087ms
+2023-05-10 22:24:24.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/lib/jquery/dist/jquery.min.js - -
+2023-05-10 22:24:24.391 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2023-05-10 22:24:24.391 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/lib/jquery/dist/jquery.min.js - - - 304 - text/javascript 0.7299ms
+2023-05-10 22:24:41.204 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-05-10 22:24:41.217 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:24:41.224 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:24:41.231 +05:30 [INF] Executing ViewResult, running view login.
+2023-05-10 22:24:41.487 +05:30 [INF] Executed ViewResult - view login executed in 258.0375ms.
+2023-05-10 22:24:41.487 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 262.7982ms
+2023-05-10 22:24:41.488 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:24:41.490 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 286.2280ms
+2023-05-10 22:24:41.602 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/css/login.css - -
+2023-05-10 22:24:41.602 +05:30 [INF] The file /css/login.css was not modified
+2023-05-10 22:24:41.603 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/css/login.css - - - 304 - text/css 0.8015ms
+2023-05-10 22:24:41.701 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-05-10 22:24:41.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:24:41.705 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9343ms
+2023-05-10 22:24:41.713 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 12.2325ms
+2023-05-10 22:24:41.773 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-05-10 22:24:41.774 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.2877ms
+2023-05-10 22:24:41.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-05-10 22:24:41.776 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.9814ms
+2023-05-10 22:24:41.776 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-05-10 22:24:41.778 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.4503ms
+2023-05-10 22:24:59.552 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-05-10 22:24:59.554 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:24:59.714 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:25:01.157 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-10 22:25:01.222 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-05-10 22:25:01.223 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 1508.5305ms
+2023-05-10 22:25:01.223 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:25:01.224 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 1671.4188ms
+2023-05-10 22:25:01.242 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:25:01.270 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:25:01.274 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:25:01.582 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:25:01.616 +05:30 [INF] Executed ViewResult - view Index executed in 35.8691ms.
+2023-05-10 22:25:01.616 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 342.0388ms
+2023-05-10 22:25:01.617 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:25:01.626 +05:30 [INF] Session started; Key:3ab7fde6-cab3-de9b-3af5-c9f8ec68a643, Id:24c8cc2e-48be-73a5-8730-a5cbe4b0d0cc
+2023-05-10 22:25:01.633 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 392.3142ms
+2023-05-10 22:25:01.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:25:01.844 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3936ms
+2023-05-10 22:25:06.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:25:06.401 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:25:06.410 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:25:07.483 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:25:08.910 +05:30 [INF] Executed DbCommand (280ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:25:09.071 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:25:09.101 +05:30 [INF] Executed ViewResult - view displayHistory executed in 31.9527ms.
+2023-05-10 22:25:09.103 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 2692.8455ms
+2023-05-10 22:25:09.104 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:25:09.118 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 2724.4755ms
+2023-05-10 22:25:09.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:25:09.210 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2054ms
+2023-05-10 22:26:34.500 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:26:34.514 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:26:34.525 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:26:34.577 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:26:34.612 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:26:34.623 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:26:34.680 +05:30 [INF] Executed ViewResult - view displayHistory executed in 60.5256ms.
+2023-05-10 22:26:34.680 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 155.0794ms
+2023-05-10 22:26:34.680 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:26:34.688 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-05-10 22:26:34.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 220.2131ms
+2023-05-10 22:26:52.289 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:26:52.293 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:26:52.302 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:26:52.429 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:26:52.449 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:26:52.459 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:26:52.545 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 243.3972ms
+2023-05-10 22:26:52.546 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:26:52.745 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[FirstApp.Models.BookingHistory]', but this ViewDataDictionary instance requires a model item of type 'FirstApp.Models.Database'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method121(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:26:52.829 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 - text/html;+charset=utf-8 540.5451ms
+2023-05-10 22:26:52.897 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:26:52.898 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3937ms
+2023-05-10 22:27:19.550 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:27:19.551 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:27:19.563 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:27:19.566 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:27:19.573 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:27:19.582 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:27:19.624 +05:30 [INF] Executed ViewResult - view displayHistory executed in 44.7156ms.
+2023-05-10 22:27:19.624 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 60.3301ms
+2023-05-10 22:27:19.624 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:27:19.643 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-05-10 22:27:19.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 93.9418ms
+2023-05-10 22:27:19.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:27:19.649 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:27:19.658 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:27:19.661 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:27:19.664 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:27:19.666 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:27:19.667 +05:30 [INF] Executed ViewResult - view displayHistory executed in 2.5742ms.
+2023-05-10 22:27:19.668 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 9.5352ms
+2023-05-10 22:27:19.668 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:27:19.669 +05:30 [WRN] Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page.
+2023-05-10 22:27:19.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 21.5146ms
+2023-05-10 22:30:37.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:30:37.824 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:30:37.832 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:30:37.834 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:30:37.850 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:30:37.856 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:30:37.904 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 71.2517ms
+2023-05-10 22:30:37.904 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:30:37.931 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[FirstApp.Models.BookingHistory]', but this ViewDataDictionary instance requires a model item of type 'FirstApp.Models.Database'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method160(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:30:37.948 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 - text/html;+charset=utf-8 127.1669ms
+2023-05-10 22:30:38.050 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:30:38.050 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2840ms
+2023-05-10 22:31:14.872 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:31:14.876 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:31:14.889 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:31:14.890 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:31:14.903 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:31:14.909 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:31:15.016 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 126.6108ms
+2023-05-10 22:31:15.016 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:31:15.021 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+2023-05-10 22:31:15.091 +05:30 [ERR] Connection id "0HMQHESQ52CA3", Request id "0HMQHESQ52CA3:00000003": An unhandled exception was thrown by the application.
+System.AggregateException: An error occurred while writing to logger(s). (Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#8' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#8' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.)
+ ---> System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#8' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.CreateDefaultLogMessage[TState](TextWriter textWriter, LogEntry`1& logEntry, String message, IExternalScopeProvider scopeProvider)
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.Write[TState](LogEntry`1& logEntry, IExternalScopeProvider scopeProvider, TextWriter textWriter)
+   at Microsoft.Extensions.Logging.Console.ConsoleLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|13_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Logging.Logger.ThrowLoggingError(List`1 exceptions)
+   at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerMessage.<>c__DisplayClass8_0.<Define>g__Log|0(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ ---> (Inner Exception #1) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#8' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at System.Text.StringBuilder.Append(Object value)
+   at Microsoft.Extensions.Logging.EventLog.EventLogLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|13_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+2023-05-10 22:31:15.093 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 0 - 220.6210ms
+2023-05-10 22:31:28.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:31:28.961 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:31:28.973 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:31:28.975 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:31:28.980 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:31:28.994 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:31:29.132 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 158.6644ms
+2023-05-10 22:31:29.132 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:31:29.136 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+2023-05-10 22:31:29.140 +05:30 [ERR] Connection id "0HMQHESQ52CA3", Request id "0HMQHESQ52CA3:00000004": An unhandled exception was thrown by the application.
+System.AggregateException: An error occurred while writing to logger(s). (Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.)
+ ---> System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.CreateDefaultLogMessage[TState](TextWriter textWriter, LogEntry`1& logEntry, String message, IExternalScopeProvider scopeProvider)
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.Write[TState](LogEntry`1& logEntry, IExternalScopeProvider scopeProvider, TextWriter textWriter)
+   at Microsoft.Extensions.Logging.Console.ConsoleLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|13_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Logging.Logger.ThrowLoggingError(List`1 exceptions)
+   at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerMessage.<>c__DisplayClass8_0.<Define>g__Log|0(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ ---> (Inner Exception #1) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at System.Text.StringBuilder.Append(Object value)
+   at Microsoft.Extensions.Logging.EventLog.EventLogLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|13_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+2023-05-10 22:31:29.148 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 0 - 188.4595ms
+2023-05-10 22:31:30.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:31:30.868 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:31:30.878 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:31:30.989 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:31:30.997 +05:30 [INF] Executed ViewResult - view Index executed in 8.4228ms.
+2023-05-10 22:31:30.997 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 118.4292ms
+2023-05-10 22:31:30.997 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:31:30.998 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 137.4104ms
+2023-05-10 22:31:31.323 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:31:31.324 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.0594ms
+2023-05-10 22:31:33.109 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:31:33.115 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:31:33.116 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:31:33.118 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:31:33.122 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:31:33.124 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:31:33.128 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 11.8256ms
+2023-05-10 22:31:33.129 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:31:33.132 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+2023-05-10 22:31:33.161 +05:30 [ERR] Connection id "0HMQHESQ52CA3", Request id "0HMQHESQ52CA3:00000007": An unhandled exception was thrown by the application.
+System.AggregateException: An error occurred while writing to logger(s). (Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.) (Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.)
+ ---> System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.CreateDefaultLogMessage[TState](TextWriter textWriter, LogEntry`1& logEntry, String message, IExternalScopeProvider scopeProvider)
+   at Microsoft.Extensions.Logging.Console.SimpleConsoleFormatter.Write[TState](LogEntry`1& logEntry, IExternalScopeProvider scopeProvider, TextWriter textWriter)
+   at Microsoft.Extensions.Logging.Console.ConsoleLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|13_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Logging.Logger.ThrowLoggingError(List`1 exceptions)
+   at Microsoft.Extensions.Logging.Logger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger`1.Microsoft.Extensions.Logging.ILogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.LoggerMessage.<>c__DisplayClass8_0.<Define>g__Log|0(ILogger logger, Exception exception)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+ ---> (Inner Exception #1) System.TypeLoadException: Could not load type 'AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory+<ExecuteAsync>d__41#11' from assembly 'FirstApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, RuntimeType type, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeMethodInfo method, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Diagnostics.StackTrace.TryResolveStateMachineMethod(MethodBase& method, Type& declaringType)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat, StringBuilder sb)
+   at System.Diagnostics.StackTrace.ToString(TraceFormat traceFormat)
+   at System.Exception.get_StackTrace()
+   at System.Exception.ToString()
+   at System.Text.StringBuilder.Append(Object value)
+   at Microsoft.Extensions.Logging.EventLog.EventLogLogger.Log[TState](LogLevel logLevel, EventId eventId, TState state, Exception exception, Func`3 formatter)
+   at Microsoft.Extensions.Logging.Logger.<Log>g__LoggerLog|13_0[TState](LogLevel logLevel, EventId eventId, ILogger logger, Exception exception, Func`3 formatter, List`1& exceptions, TState& state)<---
+
+2023-05-10 22:31:33.163 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 0 - 54.6387ms
+2023-05-10 22:31:35.915 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:31:35.915 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2523ms
+2023-05-10 22:32:00.882 +05:30 [INF] Application is shutting down...
+2023-05-10 22:32:41.545 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 22:32:41.723 +05:30 [INF] Now listening on: http://localhost:5260
+2023-05-10 22:32:41.735 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 22:32:41.736 +05:30 [INF] Hosting environment: Development
+2023-05-10 22:32:41.736 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-05-10 22:32:42.900 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-05-10 22:32:43.028 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-10 22:32:43.282 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:32:43.366 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:32:43.403 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:32:43.703 +05:30 [INF] Executed ViewResult - view Index executed in 308.3632ms.
+2023-05-10 22:32:43.709 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 341.6267ms
+2023-05-10 22:32:43.710 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:32:43.783 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 876.0228ms
+2023-05-10 22:32:44.187 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:32:44.194 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 7.6001ms
+2023-05-10 22:32:50.912 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-05-10 22:32:50.927 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:32:50.933 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:32:50.941 +05:30 [INF] Executing ViewResult, running view login.
+2023-05-10 22:32:51.238 +05:30 [INF] Executed ViewResult - view login executed in 300.3707ms.
+2023-05-10 22:32:51.239 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 305.7094ms
+2023-05-10 22:32:51.239 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:32:51.243 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 330.4557ms
+2023-05-10 22:32:51.491 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:32:51.493 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.1554ms
+2023-05-10 22:32:51.494 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-05-10 22:32:51.495 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-05-10 22:32:51.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-05-10 22:32:51.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 13.6452ms
+2023-05-10 22:32:51.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.5985ms
+2023-05-10 22:32:51.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-05-10 22:32:51.510 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.1759ms
+2023-05-10 22:32:51.511 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 15.2254ms
+2023-05-10 22:33:10.512 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-05-10 22:33:10.514 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:33:10.554 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:33:10.896 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-10 22:33:10.900 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-05-10 22:33:10.900 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 345.7654ms
+2023-05-10 22:33:10.900 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:33:10.900 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 388.5839ms
+2023-05-10 22:33:10.911 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:33:10.924 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:33:10.926 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:33:11.170 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:33:11.192 +05:30 [INF] Executed ViewResult - view Index executed in 23.6274ms.
+2023-05-10 22:33:11.193 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 266.5414ms
+2023-05-10 22:33:11.193 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:33:11.198 +05:30 [INF] Session started; Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75, Id:0095bb80-7608-220b-f6c2-4a4b162c67b1
+2023-05-10 22:33:11.205 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 293.9479ms
+2023-05-10 22:33:11.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:33:11.365 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3391ms
+2023-05-10 22:33:13.956 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:33:13.963 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:33:13.973 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:33:14.848 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:33:15.767 +05:30 [INF] Executed DbCommand (76ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:33:15.919 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:33:15.957 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 1984.3493ms
+2023-05-10 22:33:15.958 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:33:16.025 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: RenderBody invocation in '/Views/Dashboard/displayHistory.cshtml' is invalid. RenderBody can only be called from a layout page.
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderBody()
+   at AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory.<ExecuteAsync>b__41_1() in C:\Users\abi6\Desktop\FirstApp\Views\Dashboard\displayHistory.cshtml:line 74
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:33:16.143 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 - text/html;+charset=utf-8 2187.2990ms
+2023-05-10 22:33:16.165 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:33:16.166 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2657ms
+2023-05-10 22:33:44.617 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:33:44.626 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:33:44.626 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:33:44.662 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:33:44.710 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:33:44.727 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:33:44.733 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 106.3495ms
+2023-05-10 22:33:44.733 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:33:44.777 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: RenderBody invocation in '/Views/Dashboard/displayHistory.cshtml' is invalid. RenderBody can only be called from a layout page.
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.RenderBody()
+   at AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory.<ExecuteAsync>b__41_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCoreGeneratedDocument.Views_Dashboard_displayHistory.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:33:44.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 - text/html;+charset=utf-8 203.1884ms
+2023-05-10 22:33:44.909 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:33:44.909 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6380ms
+2023-05-10 22:34:00.639 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:34:00.643 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:34:00.657 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:34:00.789 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:34:00.796 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:34:00.803 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:34:00.887 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 230.0463ms
+2023-05-10 22:34:00.887 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:34:00.916 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[FirstApp.Models.BookingHistory]', but this ViewDataDictionary instance requires a model item of type 'FirstApp.Models.Database'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method107(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:34:00.933 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 - text/html;+charset=utf-8 293.6341ms
+2023-05-10 22:34:01.013 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:34:01.014 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4228ms
+2023-05-10 22:34:36.078 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:34:36.079 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:34:36.091 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:34:36.094 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:34:36.100 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:34:36.105 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:34:36.118 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 26.1026ms
+2023-05-10 22:34:36.118 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:34:36.148 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'System.Collections.Generic.List`1[FirstApp.Models.BookingHistory]', but this ViewDataDictionary instance requires a model item of type 'FirstApp.Models.Database'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method124(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:34:36.164 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 500 - text/html;+charset=utf-8 85.8540ms
+2023-05-10 22:34:36.240 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:34:36.241 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5441ms
+2023-05-10 22:35:07.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:35:07.983 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:35:08.001 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:35:08.003 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:35:08.015 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:35:08.019 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:35:08.105 +05:30 [INF] Executed ViewResult - view displayHistory executed in 88.9907ms.
+2023-05-10 22:35:08.106 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 104.8055ms
+2023-05-10 22:35:08.106 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:35:08.106 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 124.3075ms
+2023-05-10 22:35:08.268 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:35:08.268 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2259ms
+2023-05-10 22:37:18.252 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 22:37:18.487 +05:30 [INF] Now listening on: http://localhost:5260
+2023-05-10 22:37:18.507 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 22:37:18.508 +05:30 [INF] Hosting environment: Development
+2023-05-10 22:37:18.509 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-05-10 22:37:18.682 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:37:18.730 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-10 22:37:18.889 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:37:18.986 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:37:20.489 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:37:21.744 +05:30 [INF] Executed DbCommand (86ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:37:21.828 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:37:21.993 +05:30 [INF] Executed ViewResult - view displayHistory executed in 166.6809ms.
+2023-05-10 22:37:21.999 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 3011.559ms
+2023-05-10 22:37:22.000 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:37:22.046 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 3376.4910ms
+2023-05-10 22:37:22.106 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:37:22.111 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.2592ms
+2023-05-10 22:37:28.656 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-05-10 22:37:28.671 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-05-10 22:37:28.678 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:37:28.688 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-05-10 22:37:28.691 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-10 22:37:28.692 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 13.8891ms
+2023-05-10 22:37:28.692 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-05-10 22:37:28.694 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 37.5160ms
+2023-05-10 22:37:28.703 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-05-10 22:37:28.705 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:37:28.708 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:37:28.712 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:37:28.767 +05:30 [INF] Executed ViewResult - view Index executed in 57.6074ms.
+2023-05-10 22:37:28.768 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 59.0975ms
+2023-05-10 22:37:28.768 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:37:28.768 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 65.5498ms
+2023-05-10 22:37:28.820 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:37:28.821 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9136ms
+2023-05-10 22:37:30.436 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-05-10 22:37:30.438 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:37:30.443 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:37:30.447 +05:30 [INF] Accessing expired session, Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75
+2023-05-10 22:37:30.450 +05:30 [INF] Executing ViewResult, running view login.
+2023-05-10 22:37:30.608 +05:30 [INF] Executed ViewResult - view login executed in 159.9717ms.
+2023-05-10 22:37:30.608 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 164.6611ms
+2023-05-10 22:37:30.609 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:37:30.609 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 172.8163ms
+2023-05-10 22:37:30.785 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-05-10 22:37:30.791 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.3996ms
+2023-05-10 22:37:30.856 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-05-10 22:37:30.856 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:37:30.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2481ms
+2023-05-10 22:37:30.858 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.1841ms
+2023-05-10 22:37:30.858 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-05-10 22:37:30.859 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-05-10 22:37:30.859 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.9981ms
+2023-05-10 22:37:30.860 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.7556ms
+2023-05-10 22:37:39.228 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-05-10 22:37:39.229 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:37:39.266 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:37:39.513 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-10 22:37:39.516 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-05-10 22:37:39.517 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 250.9065ms
+2023-05-10 22:37:39.517 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:37:39.517 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 288.7608ms
+2023-05-10 22:37:39.524 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:37:39.528 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:37:39.530 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:37:39.569 +05:30 [INF] Accessing expired session, Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75
+2023-05-10 22:37:39.570 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:37:39.592 +05:30 [INF] Executed ViewResult - view Index executed in 23.034ms.
+2023-05-10 22:37:39.592 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 62.2569ms
+2023-05-10 22:37:39.592 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:37:39.597 +05:30 [INF] Session started; Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75, Id:66a70b4c-7d05-5f7d-fc7f-2acbaa0b6009
+2023-05-10 22:37:39.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 74.4263ms
+2023-05-10 22:37:39.673 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:37:39.675 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 3.2066ms
+2023-05-10 22:37:41.436 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:37:41.447 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:37:41.448 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:37:41.475 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:37:41.499 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:37:41.646 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:37:41.650 +05:30 [INF] Executed ViewResult - view displayHistory executed in 4.034ms.
+2023-05-10 22:37:41.650 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 202.071ms
+2023-05-10 22:37:41.650 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:37:41.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 214.7446ms
+2023-05-10 22:37:41.718 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:37:41.718 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3518ms
+2023-05-10 22:37:57.234 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:37:57.237 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:37:57.254 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:37:57.429 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:37:57.466 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:37:57.528 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:37:57.568 +05:30 [INF] Executed ViewResult - view Index executed in 41.1758ms.
+2023-05-10 22:37:57.568 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 313.3812ms
+2023-05-10 22:37:57.568 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:37:57.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 334.7125ms
+2023-05-10 22:37:57.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:37:57.624 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2646ms
+2023-05-10 22:38:15.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-05-10 22:38:15.697 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-05-10 22:38:15.697 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:38:15.698 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-05-10 22:38:15.699 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-10 22:38:15.699 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 1.7082ms
+2023-05-10 22:38:15.699 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-05-10 22:38:15.700 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 7.7300ms
+2023-05-10 22:38:15.715 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-05-10 22:38:15.716 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:38:15.716 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:38:15.716 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:38:15.719 +05:30 [INF] Executed ViewResult - view Index executed in 2.7229ms.
+2023-05-10 22:38:15.719 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 2.9504ms
+2023-05-10 22:38:15.719 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:38:15.719 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 3.9710ms
+2023-05-10 22:38:15.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:38:15.780 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2879ms
+2023-05-10 22:38:17.266 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-05-10 22:38:17.267 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:38:17.267 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:38:17.268 +05:30 [INF] Executing ViewResult, running view login.
+2023-05-10 22:38:17.278 +05:30 [INF] Executed ViewResult - view login executed in 9.6597ms.
+2023-05-10 22:38:17.278 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 10.8622ms
+2023-05-10 22:38:17.278 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:38:17.279 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 13.0739ms
+2023-05-10 22:38:17.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-05-10 22:38:17.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-05-10 22:38:17.390 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.8496ms
+2023-05-10 22:38:17.390 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 2.0608ms
+2023-05-10 22:38:17.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:38:17.391 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1983ms
+2023-05-10 22:38:17.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-05-10 22:38:17.391 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-05-10 22:38:17.392 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.0783ms
+2023-05-10 22:38:17.393 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.2797ms
+2023-05-10 22:38:26.911 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-05-10 22:38:26.913 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:38:26.913 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:38:26.926 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-10 22:38:26.927 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-05-10 22:38:26.927 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 14.2643ms
+2023-05-10 22:38:26.927 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:38:26.927 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 16.5871ms
+2023-05-10 22:38:26.935 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:38:26.936 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:38:26.936 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:38:26.940 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:38:26.942 +05:30 [INF] Executed ViewResult - view Index executed in 1.6043ms.
+2023-05-10 22:38:26.942 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 5.3529ms
+2023-05-10 22:38:26.942 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:38:26.943 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 7.3303ms
+2023-05-10 22:38:27.008 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:38:27.008 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2268ms
+2023-05-10 22:38:28.971 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:38:28.972 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:38:28.972 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:38:28.974 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:38:28.987 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:38:28.992 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:38:28.994 +05:30 [INF] Executed ViewResult - view displayHistory executed in 2.8849ms.
+2023-05-10 22:38:28.995 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 22.48ms
+2023-05-10 22:38:28.995 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:38:28.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 24.4415ms
+2023-05-10 22:38:29.078 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:38:29.078 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2746ms
+2023-05-10 22:38:30.922 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:38:30.923 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:38:30.923 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:38:30.925 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:38:30.931 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:38:30.936 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:38:30.939 +05:30 [INF] Executed ViewResult - view Index executed in 2.6686ms.
+2023-05-10 22:38:30.939 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 16.1393ms
+2023-05-10 22:38:30.939 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:38:30.940 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 17.3958ms
+2023-05-10 22:38:31.001 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:38:31.002 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2643ms
+2023-05-10 22:39:44.498 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:39:44.504 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:39:44.516 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:39:44.517 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:39:44.533 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:39:44.536 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:39:44.548 +05:30 [INF] Executed ViewResult - view Index executed in 14.0273ms.
+2023-05-10 22:39:44.549 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 32.5536ms
+2023-05-10 22:39:44.549 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:39:44.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 50.5659ms
+2023-05-10 22:39:44.828 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:39:44.829 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5812ms
+2023-05-10 22:40:01.316 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 22:40:01.690 +05:30 [INF] Now listening on: http://localhost:5260
+2023-05-10 22:40:01.701 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 22:40:01.702 +05:30 [INF] Hosting environment: Development
+2023-05-10 22:40:01.702 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-05-10 22:40:01.901 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:40:01.944 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-10 22:40:02.080 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:02.150 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:03.544 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:04.371 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:40:04.544 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:04.671 +05:30 [INF] Executed ViewResult - view Index executed in 130.2155ms.
+2023-05-10 22:40:04.674 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 2523.5836ms
+2023-05-10 22:40:04.675 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:04.716 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 2819.6525ms
+2023-05-10 22:40:04.762 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:04.768 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.9437ms
+2023-05-10 22:40:13.873 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:40:13.885 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:13.885 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:13.922 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:13.940 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:40:13.948 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:13.959 +05:30 [INF] Executed ViewResult - view Index executed in 12.6339ms.
+2023-05-10 22:40:13.960 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 74.4455ms
+2023-05-10 22:40:13.960 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:13.961 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 87.8828ms
+2023-05-10 22:40:14.016 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:14.017 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.8667ms
+2023-05-10 22:40:15.305 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:40:15.308 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:15.308 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:15.465 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:15.472 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:40:15.477 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:15.491 +05:30 [INF] Executed ViewResult - view Index executed in 14.3939ms.
+2023-05-10 22:40:15.492 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 183.09ms
+2023-05-10 22:40:15.492 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:15.492 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 187.5672ms
+2023-05-10 22:40:15.547 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:15.548 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9539ms
+2023-05-10 22:40:18.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin/showHistory - -
+2023-05-10 22:40:18.221 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.showHistory (FirstApp)'
+2023-05-10 22:40:18.228 +05:30 [INF] Route matched with {action = "showHistory", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] showHistory() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:18.232 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:18.254 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+2023-05-10 22:40:18.295 +05:30 [INF] Executing ViewResult, running view showHistory.
+2023-05-10 22:40:18.329 +05:30 [INF] Executed ViewResult - view showHistory executed in 34.9929ms.
+2023-05-10 22:40:18.329 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.showHistory (FirstApp) in 100.5462ms
+2023-05-10 22:40:18.329 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.showHistory (FirstApp)'
+2023-05-10 22:40:18.329 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin/showHistory - - - 200 - text/html;+charset=utf-8 109.4556ms
+2023-05-10 22:40:18.382 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:18.383 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3358ms
+2023-05-10 22:40:19.777 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:40:19.778 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:19.778 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:19.782 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:19.787 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:40:19.791 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:19.794 +05:30 [INF] Executed ViewResult - view Index executed in 3.4997ms.
+2023-05-10 22:40:19.794 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 15.8677ms
+2023-05-10 22:40:19.794 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:19.795 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 19.5506ms
+2023-05-10 22:40:19.859 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:19.860 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2841ms
+2023-05-10 22:40:24.584 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin/showHistory - -
+2023-05-10 22:40:24.589 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.showHistory (FirstApp)'
+2023-05-10 22:40:24.589 +05:30 [INF] Route matched with {action = "showHistory", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] showHistory() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:24.591 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:24.593 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+2023-05-10 22:40:24.596 +05:30 [INF] Executing ViewResult, running view showHistory.
+2023-05-10 22:40:24.602 +05:30 [INF] Executed ViewResult - view showHistory executed in 5.753ms.
+2023-05-10 22:40:24.602 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.showHistory (FirstApp) in 12.6619ms
+2023-05-10 22:40:24.602 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.showHistory (FirstApp)'
+2023-05-10 22:40:24.603 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin/showHistory - - - 200 - text/html;+charset=utf-8 18.3226ms
+2023-05-10 22:40:24.662 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:24.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2421ms
+2023-05-10 22:40:30.064 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:40:30.066 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:30.066 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:30.068 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:30.078 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:40:30.083 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:30.085 +05:30 [INF] Executed ViewResult - view Index executed in 1.4917ms.
+2023-05-10 22:40:30.085 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 18.5452ms
+2023-05-10 22:40:30.085 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:30.085 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 20.9836ms
+2023-05-10 22:40:30.159 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:30.160 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9263ms
+2023-05-10 22:40:32.266 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Admin - -
+2023-05-10 22:40:32.267 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:32.267 +05:30 [INF] Route matched with {action = "Index", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FirstApp.Controllers.AdminController (FirstApp).
+2023-05-10 22:40:32.269 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:32.277 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[Department], [e].[EmailId], [e].[Name], [e].[userPassword]
+FROM [Employees] AS [e]
+2023-05-10 22:40:32.281 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:32.284 +05:30 [INF] Executed ViewResult - view Index executed in 2.8504ms.
+2023-05-10 22:40:32.284 +05:30 [INF] Executed action FirstApp.Controllers.AdminController.Index (FirstApp) in 16.7513ms
+2023-05-10 22:40:32.284 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.AdminController.Index (FirstApp)'
+2023-05-10 22:40:32.285 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Admin - - - 200 - text/html;+charset=utf-8 18.9358ms
+2023-05-10 22:40:32.340 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:32.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3075ms
+2023-05-10 22:40:37.229 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-05-10 22:40:37.231 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-05-10 22:40:37.241 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:40:37.252 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-05-10 22:40:37.255 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-05-10 22:40:37.255 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 13.593ms
+2023-05-10 22:40:37.255 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-05-10 22:40:37.255 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 26.3171ms
+2023-05-10 22:40:37.265 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-05-10 22:40:37.266 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:40:37.269 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:40:37.272 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:37.317 +05:30 [INF] Executed ViewResult - view Index executed in 46.6063ms.
+2023-05-10 22:40:37.317 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 47.6232ms
+2023-05-10 22:40:37.317 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:40:37.317 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 52.4096ms
+2023-05-10 22:40:37.378 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:37.378 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2018ms
+2023-05-10 22:40:39.064 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-05-10 22:40:39.065 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:40:39.069 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:40:39.074 +05:30 [INF] Accessing expired session, Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75
+2023-05-10 22:40:39.076 +05:30 [INF] Executing ViewResult, running view login.
+2023-05-10 22:40:39.246 +05:30 [INF] Executed ViewResult - view login executed in 171.5047ms.
+2023-05-10 22:40:39.247 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 177.8104ms
+2023-05-10 22:40:39.247 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:40:39.247 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 183.7200ms
+2023-05-10 22:40:39.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-05-10 22:40:39.419 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-05-10 22:40:39.422 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 3.3649ms
+2023-05-10 22:40:39.422 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-05-10 22:40:39.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-05-10 22:40:39.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 9.9323ms
+2023-05-10 22:40:39.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.8204ms
+2023-05-10 22:40:39.423 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.8892ms
+2023-05-10 22:40:39.424 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:39.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2839ms
+2023-05-10 22:40:47.083 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-05-10 22:40:47.084 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:40:47.125 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:40:47.512 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-10 22:40:47.516 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-05-10 22:40:47.516 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 390.9551ms
+2023-05-10 22:40:47.516 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:40:47.516 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 433.0200ms
+2023-05-10 22:40:47.523 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:40:47.540 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:40:47.542 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:40:47.569 +05:30 [INF] Accessing expired session, Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75
+2023-05-10 22:40:47.570 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:47.591 +05:30 [INF] Executed ViewResult - view Index executed in 22.4443ms.
+2023-05-10 22:40:47.592 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 49.627ms
+2023-05-10 22:40:47.592 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:40:47.596 +05:30 [INF] Session started; Key:09ecebd1-ab2f-d3b5-dad5-61ecf8a76e75, Id:e9d61b9c-4ae6-b8ff-a5f8-d5d1cbbbc32d
+2023-05-10 22:40:47.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 74.9174ms
+2023-05-10 22:40:47.660 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:47.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2616ms
+2023-05-10 22:40:49.524 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - -
+2023-05-10 22:40:49.530 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:40:49.539 +05:30 [INF] Route matched with {action = "displayHistory", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] displayHistory() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:40:49.544 +05:30 [INF] Entity Framework Core 6.0.0 initialized 'EmployeeDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-05-10 22:40:49.761 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[@__UserId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Name], [b].[Date], [b].[Destination], [b].[UserId]
+FROM [BookingHistories] AS [b]
+WHERE [b].[UserId] = @__UserId_0
+2023-05-10 22:40:49.778 +05:30 [INF] Executing ViewResult, running view displayHistory.
+2023-05-10 22:40:49.825 +05:30 [INF] Executed ViewResult - view displayHistory executed in 58.3475ms.
+2023-05-10 22:40:49.825 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.displayHistory (FirstApp) in 286.1809ms
+2023-05-10 22:40:49.825 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.displayHistory (FirstApp)'
+2023-05-10 22:40:49.826 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/displayHistory - - - 200 - text/html;+charset=utf-8 302.3372ms
+2023-05-10 22:40:49.919 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:49.920 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9731ms
+2023-05-10 22:40:51.428 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard - -
+2023-05-10 22:40:51.435 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:40:51.435 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:40:51.493 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:40:51.500 +05:30 [INF] Executed ViewResult - view Index executed in 7.3736ms.
+2023-05-10 22:40:51.500 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 65.0846ms
+2023-05-10 22:40:51.500 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:40:51.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard - - - 200 - text/html;+charset=utf-8 72.9826ms
+2023-05-10 22:40:51.588 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:51.588 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2540ms
+2023-05-10 22:40:54.110 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-05-10 22:40:54.115 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:40:54.118 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:40:54.122 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-05-10 22:40:54.170 +05:30 [INF] Executed ViewResult - view bookRide executed in 51.0905ms.
+2023-05-10 22:40:54.170 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 51.891ms
+2023-05-10 22:40:54.170 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:40:54.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 59.8448ms
+2023-05-10 22:40:54.230 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:40:54.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1937ms
+2023-05-10 22:41:13.164 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 279
+2023-05-10 22:41:13.166 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:41:13.174 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:41:13.195 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 19.9939ms
+2023-05-10 22:41:13.195 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:41:13.362 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date) in C:\Users\abi6\Desktop\FirstApp\Models\Dashboard\CurrentUser.cs:line 57
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee) in C:\Users\abi6\Desktop\FirstApp\Controllers\DashboardController.cs:line 59
+   at lambda_method172(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:41:13.411 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 279 - 500 - text/html;+charset=utf-8 246.8190ms
+2023-05-10 22:41:13.479 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:41:13.480 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1695ms
+2023-05-10 22:41:43.907 +05:30 [INF] Application is shutting down...
+2023-05-10 22:42:02.660 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-10 22:42:02.847 +05:30 [INF] Now listening on: http://localhost:5260
+2023-05-10 22:42:02.860 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-10 22:42:02.861 +05:30 [INF] Hosting environment: Development
+2023-05-10 22:42:02.861 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-05-10 22:42:03.976 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-05-10 22:42:04.067 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-05-10 22:42:04.357 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:42:04.478 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-05-10 22:42:04.512 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:42:04.893 +05:30 [INF] Executed ViewResult - view Index executed in 389.7467ms.
+2023-05-10 22:42:04.899 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 419.7268ms
+2023-05-10 22:42:04.899 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-05-10 22:42:04.948 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 1014.3825ms
+2023-05-10 22:42:05.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:42:05.378 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 7.3703ms
+2023-05-10 22:42:07.573 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-05-10 22:42:07.587 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:42:07.592 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:42:07.600 +05:30 [INF] Executing ViewResult, running view login.
+2023-05-10 22:42:07.926 +05:30 [INF] Executed ViewResult - view login executed in 329.5232ms.
+2023-05-10 22:42:07.927 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 334.9954ms
+2023-05-10 22:42:07.927 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:42:07.931 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 357.5986ms
+2023-05-10 22:42:08.203 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-05-10 22:42:08.212 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:42:08.214 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.1426ms
+2023-05-10 22:42:08.215 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-05-10 22:42:08.216 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 13.0199ms
+2023-05-10 22:42:08.216 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-05-10 22:42:08.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.9116ms
+2023-05-10 22:42:08.217 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.9963ms
+2023-05-10 22:42:08.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-05-10 22:42:08.233 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 14.8557ms
+2023-05-10 22:42:19.420 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-05-10 22:42:19.421 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:42:19.479 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-05-10 22:42:19.863 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-05-10 22:42:19.869 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-05-10 22:42:19.869 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 390.0583ms
+2023-05-10 22:42:19.869 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-05-10 22:42:19.870 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 449.4799ms
+2023-05-10 22:42:19.878 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-05-10 22:42:19.893 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:42:19.896 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:42:20.205 +05:30 [INF] Executing ViewResult, running view Index.
+2023-05-10 22:42:20.231 +05:30 [INF] Executed ViewResult - view Index executed in 26.3433ms.
+2023-05-10 22:42:20.231 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 334.1837ms
+2023-05-10 22:42:20.231 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-05-10 22:42:20.239 +05:30 [INF] Session started; Key:67d834bd-74bd-874b-37ef-a6d8831ca344, Id:45ef63d7-6260-1fd6-66ee-0321ea589984
+2023-05-10 22:42:20.246 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 367.3723ms
+2023-05-10 22:42:20.461 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:42:20.462 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6581ms
+2023-05-10 22:42:22.800 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-05-10 22:42:22.811 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:42:22.813 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:42:22.829 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-05-10 22:42:22.876 +05:30 [INF] Executed ViewResult - view bookRide executed in 47.9712ms.
+2023-05-10 22:42:22.876 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 62.1035ms
+2023-05-10 22:42:22.876 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:42:22.876 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 75.9466ms
+2023-05-10 22:42:22.943 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:42:22.943 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2713ms
+2023-05-10 22:42:34.232 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 22:42:34.244 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:42:34.246 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:42:34.638 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 392.2795ms
+2023-05-10 22:42:34.639 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:42:34.749 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_BookingHistories'. Cannot insert duplicate key in object 'dbo.BookingHistories'. The duplicate key value is (Abinash Ravi).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date) in C:\Users\abi6\Desktop\FirstApp\Models\Dashboard\CurrentUser.cs:line 64
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee) in C:\Users\abi6\Desktop\FirstApp\Controllers\DashboardController.cs:line 59
+   at lambda_method64(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:22d57d1b-3d0a-4a68-ba25-88ae2e674776
+Error Number:2627,State:1,Class:14
+2023-05-10 22:42:34.795 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 563.6409ms
+2023-05-10 22:42:34.852 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:42:34.853 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2486ms
+2023-05-10 22:53:08.246 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 22:53:08.247 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:53:08.265 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:53:08.271 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 5.7883ms
+2023-05-10 22:53:08.272 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:53:08.294 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date) in C:\Users\abi6\Desktop\FirstApp\Models\Dashboard\CurrentUser.cs:line 57
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee) in C:\Users\abi6\Desktop\FirstApp\Controllers\DashboardController.cs:line 59
+   at lambda_method68(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:53:08.321 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 75.2439ms
+2023-05-10 22:53:08.431 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:53:08.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2860ms
+2023-05-10 22:53:55.881 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 22:53:55.883 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:53:55.897 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:53:55.903 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 4.9782ms
+2023-05-10 22:53:55.903 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:53:55.914 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee)
+   at lambda_method73(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:53:55.929 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 47.8120ms
+2023-05-10 22:53:56.182 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:53:56.183 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3181ms
+2023-05-10 22:54:09.800 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 22:54:09.801 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:54:09.819 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:54:09.824 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 4.8832ms
+2023-05-10 22:54:09.825 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:54:09.869 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee)
+   at lambda_method78(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:54:09.878 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 77.9448ms
+2023-05-10 22:54:10.643 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 22:54:10.644 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:54:10.654 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 22:54:10.661 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 6.9762ms
+2023-05-10 22:54:10.662 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 22:54:10.674 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee)
+   at lambda_method83(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 22:54:10.688 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 44.8899ms
+2023-05-10 22:54:11.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 22:54:11.668 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2656ms
+2023-05-10 23:02:22.019 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 23:02:22.021 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 23:02:22.036 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 23:02:22.043 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 7.0218ms
+2023-05-10 23:02:22.044 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 23:02:22.066 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee)
+   at lambda_method88(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 23:02:22.076 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 57.1705ms
+2023-05-10 23:02:22.119 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 23:02:22.122 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 23:02:22.135 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 23:02:22.138 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 3.5792ms
+2023-05-10 23:02:22.139 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 23:02:22.160 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee)
+   at lambda_method93(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 23:02:22.168 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 49.0586ms
+2023-05-10 23:02:22.265 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 23:02:22.270 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 4.6676ms
+2023-05-10 23:05:07.695 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280
+2023-05-10 23:05:07.696 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 23:05:07.710 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser, FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-05-10 23:05:07.717 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 7.3721ms
+2023-05-10 23:05:07.718 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-05-10 23:05:07.758 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser, Employee employee)
+   at lambda_method98(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-05-10 23:05:07.767 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 280 - 500 - text/html;+charset=utf-8 71.9600ms
+2023-05-10 23:05:09.415 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-05-10 23:05:09.415 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2943ms
+2023-05-10 23:06:30.844 +05:30 [INF] Application is shutting down...

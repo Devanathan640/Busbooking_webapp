@@ -1,0 +1,82 @@
+2023-04-09 08:38:45.087 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-09 08:38:45.304 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-09 08:38:45.311 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-09 08:38:45.312 +05:30 [INF] Hosting environment: Development
+2023-04-09 08:38:45.312 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-04-09 08:39:08.191 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-09 08:39:08.236 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-09 08:39:08.338 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-09 08:39:08.386 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-09 08:39:08.408 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-09 08:39:08.839 +05:30 [INF] Executed ViewResult - view Index executed in 425.7439ms.
+2023-04-09 08:39:08.857 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 468.4641ms
+2023-04-09 08:39:08.858 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-09 08:39:08.887 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 702.7948ms
+2023-04-09 08:39:11.026 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-09 08:39:11.057 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-09 08:39:11.062 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-09 08:39:11.072 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-09 08:39:11.270 +05:30 [INF] Executed ViewResult - view login executed in 203.1892ms.
+2023-04-09 08:39:11.271 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 208.4579ms
+2023-04-09 08:39:11.271 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-09 08:39:11.273 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 247.3095ms
+2023-04-09 08:39:11.300 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-09 08:39:11.306 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-09 08:39:11.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-09 08:39:11.313 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 13.0303ms
+2023-04-09 08:39:11.313 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 6.3209ms
+2023-04-09 08:39:11.314 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 7.2366ms
+2023-04-09 08:39:11.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-09 08:39:11.371 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.6512ms
+2023-04-09 08:39:23.111 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-09 08:39:23.112 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-09 08:39:23.166 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-09 08:39:23.624 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-09 08:39:23.670 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-09 08:39:23.670 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 503.6682ms
+2023-04-09 08:39:23.670 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-09 08:39:23.671 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 559.5763ms
+2023-04-09 08:39:23.678 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-09 08:39:23.693 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-09 08:39:23.696 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-09 08:39:23.754 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-09 08:39:23.802 +05:30 [INF] Executed ViewResult - view Index executed in 50.5837ms.
+2023-04-09 08:39:23.803 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 106.3806ms
+2023-04-09 08:39:23.803 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-09 08:39:23.833 +05:30 [INF] Session started; Key:8dcf60e2-50aa-7891-514d-8fcb20cb22ca, Id:37eeb178-89fc-c235-a374-aecb6f16bf0e
+2023-04-09 08:39:23.836 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 158.5839ms
+2023-04-09 08:39:28.207 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/showProfile - -
+2023-04-09 08:39:28.220 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.showProfile (FirstApp)'
+2023-04-09 08:39:28.222 +05:30 [INF] Route matched with {action = "showProfile", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult showProfile() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-09 08:39:28.224 +05:30 [INF] Executing ViewResult, running view showProfile.
+2023-04-09 08:39:28.233 +05:30 [INF] Executed ViewResult - view showProfile executed in 10.5054ms.
+2023-04-09 08:39:28.233 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.showProfile (FirstApp) in 11.089ms
+2023-04-09 08:39:28.233 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.showProfile (FirstApp)'
+2023-04-09 08:39:28.233 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/showProfile - - - 200 - text/html;+charset=utf-8 26.0947ms
+2023-04-09 08:39:30.105 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/contact - -
+2023-04-09 08:39:30.110 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.contact (FirstApp)'
+2023-04-09 08:39:30.112 +05:30 [INF] Route matched with {action = "contact", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult contact() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-09 08:39:30.114 +05:30 [INF] Executing ViewResult, running view contact.
+2023-04-09 08:39:30.118 +05:30 [INF] Executed ViewResult - view contact executed in 6.3168ms.
+2023-04-09 08:39:30.119 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.contact (FirstApp) in 6.9186ms
+2023-04-09 08:39:30.119 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.contact (FirstApp)'
+2023-04-09 08:39:30.119 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/contact - - - 200 - text/html;+charset=utf-8 14.0930ms
+2023-04-09 08:39:31.375 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard - -
+2023-04-09 08:39:31.376 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-09 08:39:31.376 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-09 08:39:31.440 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-09 08:39:31.446 +05:30 [INF] Executed ViewResult - view Index executed in 5.6951ms.
+2023-04-09 08:39:31.446 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 69.6485ms
+2023-04-09 08:39:31.446 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-09 08:39:31.447 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard - - - 200 - text/html;+charset=utf-8 72.2936ms
+2023-04-09 08:39:33.646 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-09 08:39:33.646 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-09 08:39:33.651 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-09 08:39:33.654 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-09 08:39:33.687 +05:30 [INF] Executed ViewResult - view bookRide executed in 36.1329ms.
+2023-04-09 08:39:33.688 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 37.1846ms
+2023-04-09 08:39:33.688 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-09 08:39:33.689 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 43.0561ms
+2023-04-09 08:39:39.962 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-09 08:39:39.963 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-09 08:39:39.968 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).

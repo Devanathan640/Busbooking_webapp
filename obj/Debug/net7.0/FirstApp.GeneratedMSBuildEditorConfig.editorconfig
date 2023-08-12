@@ -9,89 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstApp
 build_property.RootNamespace = FirstApp
-build_property.ProjectDir = C:\Users\abi6\Desktop\FirstApp\
+build_property.ProjectDir = D:\AspireSystems\bus booking system\WebApi\FirstApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\abi6\Desktop\FirstApp
+build_property.MSBuildProjectDirectory = D:\AspireSystems\bus booking system\WebApi\FirstApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Admin/Add.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Account/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Admin/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Admin/Index.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Admin/View.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Admin/showHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cc2hvd0hpc3RvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Admin/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Dashboard/bookRide.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Dashboard/bookRide.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGJvb2tSaWRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Dashboard/contact.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Dashboard/contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGNvbnRhY3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Dashboard/Index.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Dashboard/displayHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXGRpc3BsYXlIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Dashboard/seatBooked.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Dashboard/seatBooked.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXHNlYXRCb29rZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Dashboard/showProfile.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Dashboard/showProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXHNob3dQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Employee/checkCode.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Employee/checkCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcY2hlY2tDb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Employee/forgotPassword.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Employee/forgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcZm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Employee/Login.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Employee/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Employee/sendMail.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Employee/sendMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcc2VuZE1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Error/Index.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Home/Index.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Home/Privacy.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Shared/Error.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/_ViewImports.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/_ViewStart.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abi6/Desktop/FirstApp/Views/Shared/_Layout.cshtml]
+[D:/AspireSystems/bus booking system/WebApi/FirstApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6gc6ghsaw7

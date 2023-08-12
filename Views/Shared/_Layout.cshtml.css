@@ -1,22 +1,15 @@
-﻿/* Title       :Online Bus Booking System
-Author      :Abinash(IFET)
-Created at  :01-03-2023
-Updated at  :13-03-2023
-Reviewed by :
-Reviewed at : */
-
-
+﻿
 a.navbar-brand {
   text-align: center;
   word-break: break-all;
-  background-color:#8d599f;
+  background-color:#f7adad;
 }
 a{
   color: #0077cc;
 }
 
 .btn-primary {
-  color: #b834c4;
+  color: #f7adad;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
@@ -52,10 +45,7 @@ button.accept-policy {
 }
 
 .navbar-nav{
-  color: #b834c4;
+  color: #af1616;
   text-align: right;
-  padding: 0%;
-  
-
-  
+  padding: 0%;   
 }

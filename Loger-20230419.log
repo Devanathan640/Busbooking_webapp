@@ -1,0 +1,39 @@
+2023-04-19 23:50:22.328 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-19 23:50:23.468 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-19 23:50:23.483 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-19 23:50:23.484 +05:30 [INF] Hosting environment: Development
+2023-04-19 23:50:23.485 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\temp\FirstApp
+2023-04-19 23:50:24.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-19 23:50:24.681 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-19 23:50:25.055 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-04-19 23:50:25.205 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 500 - text/html;+charset=utf-8 679.9678ms
+2023-04-19 23:50:25.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-19 23:50:25.261 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.5999ms
+2023-04-19 23:50:40.701 +05:30 [INF] Application is shutting down...
+2023-04-19 23:50:59.892 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-19 23:51:00.136 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-19 23:51:00.146 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-19 23:51:00.146 +05:30 [INF] Hosting environment: Development
+2023-04-19 23:51:00.147 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\temp\FirstApp
+2023-04-19 23:51:01.254 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-19 23:51:01.371 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-19 23:51:01.705 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at lambda_method1(Closure, Object, HttpContext, IServiceProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-04-19 23:51:01.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 500 - text/html;+charset=utf-8 633.4587ms
+2023-04-19 23:51:01.938 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-19 23:51:01.952 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 13.0462ms

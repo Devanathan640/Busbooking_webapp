@@ -1,4 +1,4 @@
-﻿@model List<FirstApp.Models.Employee> // mengambil database dari Employee
+﻿@model List<FirstApp.Models.Employee> 
 @{
     Layout=null;
 }
@@ -19,7 +19,7 @@
             <div class="container-fluid" >
                 @if (User.Identity.IsAuthenticated)
                 {
-                  <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
+                  <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index">
                     <img style="width:60px;" src="~/images/bus logo1.png" alt="LOGO">
                 </a>
                    
@@ -40,7 +40,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index"><b>Employees</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Add"><b>Add Employees</b></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Signup"><b>Add Employees</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="showHistory"><b>History</b></a>
                         </li>
                          }
                         </ul>
@@ -48,11 +51,11 @@
                             <ul class="navbar-nav flex-grow-1">
                                 
                         @if(User.Identity.IsAuthenticated){
-                             <li class="nav-item">
+                             @* <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
                                   <img style="width:20px;" src="~/images/notification.png" alt="notification">
                 </a>
-                        </li>
+                        </li> *@
                             
                             <li class="nav-item">
                             <a class="nav-link text-dark "  style="text-align:right;" asp-controller="Home" asp-action="logOut"><b>Logout</b></a>
@@ -87,8 +90,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var employee in Model) // membuat perulangan untuk tampilkan data
-        {
+        @foreach (var employee in Model) {
             <tr>
                 <td>@employee.EmployeeId</td>
                 <td>@employee.Name</td>

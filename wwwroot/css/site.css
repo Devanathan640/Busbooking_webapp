@@ -21,10 +21,11 @@ html {
 
 body {
   margin-bottom: 0%;
+  background-color: #ffcbcb;
 }
 
 .display-4 {
-  color:#855AA6;
+  color:#af1616;
   font-family: 'Times New Roman', Times, serif;
   font: weight 500px;
 }

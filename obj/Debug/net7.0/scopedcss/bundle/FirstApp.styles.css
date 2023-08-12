@@ -1,23 +1,16 @@
 /* _content/FirstApp/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Title       :Online Bus Booking System
-Author      :Abinash(IFET)
-Created at  :01-03-2023
-Updated at  :13-03-2023
-Reviewed by :
-Reviewed at : */
-
 
 a.navbar-brand[b-6gc6ghsaw7] {
   text-align: center;
   word-break: break-all;
-  background-color:#8d599f;
+  background-color:#f7adad;
 }
 a[b-6gc6ghsaw7]{
   color: #0077cc;
 }
 
 .btn-primary[b-6gc6ghsaw7] {
-  color: #b834c4;
+  color: #f7adad;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
@@ -53,10 +46,7 @@ button.accept-policy[b-6gc6ghsaw7] {
 }
 
 .navbar-nav[b-6gc6ghsaw7]{
-  color: #b834c4;
+  color: #af1616;
   text-align: right;
-  padding: 0%;
-  
-
-  
+  padding: 0%;   
 }

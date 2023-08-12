@@ -1,13 +1,4 @@
-﻿// Title       :Online Bus Booking System
-//  Author      :Abinash(IFET)
-// Created at  :01-03-2023
-// Updated at  :13-03-2023
-// Reviewed by :
-// Reviewed at :
-
-
-
-
+﻿
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FirstApp.Models;
@@ -19,6 +10,7 @@ using FirstApp.Filters;
 
 namespace FirstApp.Controllers;
 [ExceptionLogFilter]
+[LogActionFilter]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -26,7 +18,7 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+[CustomResultFilter]
     public IActionResult Index()
     {
         return View();

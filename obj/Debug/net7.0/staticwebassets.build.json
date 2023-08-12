@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UMYDoazJ24zCC2sTl7rKnYp6aQDZYqwj0hiNSN3K4ZQ=",
+  "Hash": "x+vKkYbqkVIPOLeb27/IM7Lqm2UkTidNaCMeHT+5J2M=",
   "Source": "FirstApp",
   "BasePath": "_content/FirstApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FirstApp\\wwwroot",
       "Source": "FirstApp",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\FirstApp.styles.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\FirstApp.styles.css",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "FirstApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\FirstApp.styles.css"
+      "OriginalItemSpec": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\FirstApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FirstApp.bundle.scp.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FirstApp.bundle.scp.css",
       "SourceId": "FirstApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "FirstApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FirstApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FirstApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\css\\forgotPassword.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\css\\forgotPassword.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "css/forgotPassword.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\forgotPassword.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\css\\login.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\css\\login.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\css\\site.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\favicon.ico",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\favicon.ico",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,10 +119,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\images\\background.jpg",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\allbackground.jpg",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/allbackground.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\allbackground.jpg"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\background.jpg",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "images/background.jpg",
       "AssetKind": "All",
@@ -136,10 +153,27 @@
       "OriginalItemSpec": "wwwroot\\images\\background.jpg"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\images\\bus logo1.png",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\bus gif.gif",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/bus gif.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bus gif.gif"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\bus logo1.png",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "images/bus logo1.png",
       "AssetKind": "All",
@@ -153,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bus logo1.png"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\images\\bus.png",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\bus.png",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "images/bus.png",
       "AssetKind": "All",
@@ -170,10 +204,61 @@
       "OriginalItemSpec": "wwwroot\\images\\bus.png"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\images\\notification.png",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\dash index.png",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/dash index.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dash index.png"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\last.png",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/last.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\last.png"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\logo.png",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\notification.png",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "images/notification.png",
       "AssetKind": "All",
@@ -187,10 +272,44 @@
       "OriginalItemSpec": "wwwroot\\images\\notification.png"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\js\\site.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\OIP.png",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/OIP.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\OIP.png"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\images\\welcome.gif",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
+      "BasePath": "_content/FirstApp",
+      "RelativePath": "images/welcome.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\welcome.gif"
+    },
+    {
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\js\\site.js",
+      "SourceId": "FirstApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -204,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -221,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -238,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -255,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -272,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -289,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -306,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -323,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -340,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -357,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -374,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -391,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -408,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -425,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -442,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -459,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -476,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -493,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -510,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -527,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -544,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -561,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -578,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -595,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -612,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -629,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -646,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -663,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -680,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -697,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -714,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -731,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -748,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -765,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -782,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -799,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -816,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -833,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -850,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -867,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -884,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -901,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -918,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -935,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -952,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -969,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -986,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1003,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1020,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1037,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1054,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1071,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1088,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1105,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1122,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1139,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1156,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FirstApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abi6\\Desktop\\FirstApp\\wwwroot\\",
+      "ContentRoot": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\wwwroot\\",
       "BasePath": "_content/FirstApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

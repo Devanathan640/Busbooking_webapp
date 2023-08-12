@@ -41,7 +41,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index"><b>Employees</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Add"><b>Add Employees</b></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Signup"><b>Add Employees</b></a>
                         </li>
                          }
                         </ul>
@@ -49,11 +49,11 @@
                             <ul class="navbar-nav flex-grow-1">
                                 
                         @if(User.Identity.IsAuthenticated){
-                             <li class="nav-item">
+                             @* <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
                                   <img style="width:20px;" src="~/images/notification.png" alt="notification">
                 </a>
-                        </li>
+                        </li> *@
                             
                             <li class="nav-item">
                             <a class="nav-link text-dark "  style="text-align:right;" asp-controller="Home" asp-action="logOut"><b>Logout</b></a>
@@ -71,10 +71,78 @@
             </div>
         </nav>
     </header>
+
+
+<link rel="stylesheet" href="~/css/login.css" type="text/css" />
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-10 col-lg-5">
+					<div class="login-wrap p-4 p-md-5">
+		      	<h3 class="text-center mb-4">ADD EMPLOYEE</h3>
+						<form method="post">
+                    <div class="form-group">
+		      			<input type="text"asp-for="Id" class="form-control rounded-left" placeholder="Id" readonly>
+						@Html.ValidationMessageFor(model=>model.Id,"",new {@class="error"})
+						<div asp-validation-for="Id"></div>
+		      		</div>
+
+
+
+		      		<div class="form-group">
+		      			<input type="text"asp-for="Name" class="form-control rounded-left" placeholder="Name" required>
+						@Html.ValidationMessageFor(model=>model.Name,"",new {@class="error"})
+						<div asp-validation-for="Name"></div>
+		      		</div>
+
+                    <div class="form-group">
+		      			<input type="email"asp-for="Email" class="form-control rounded-left" placeholder="Email-ID" required>
+						@Html.ValidationMessageFor(model=>model.Email,"",new {@class="error"})
+						<div asp-validation-for="Email"></div>
+		      		</div>
+
+                    <div class="form-group">
+		      			<input type="text"asp-for="userPassword" class="form-control rounded-left" placeholder="Password" required>
+						@Html.ValidationMessageFor(model=>model.userPassword,"",new {@class="error"})
+						<div asp-validation-for="userPassword"></div>
+		      		</div>
+                    <div class="form-group">
+		      			<input type="date"asp-for="DateOfBirth" class="form-control rounded-left" placeholder="Date Of Birth" required>
+						@Html.ValidationMessageFor(model=>model.DateOfBirth,"",new {@class="error"})
+						<div asp-validation-for="DateOfBirth"></div>
+		      		</div>
+
+                    <div class="form-group">
+		      			<input type="text"asp-for="Department" class="form-control rounded-left" placeholder="Department" required>
+						@Html.ValidationMessageFor(model=>model.Department,"",new {@class="error"})
+						<div asp-validation-for="Department"></div>
+		      		</div>
+
+
+	            <div class="form-group">
+	<button type="submit" class="btn btn-primary">Save Update</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Admin">Delete</button>
+	            </div>
+	          </form>  
+	        </div>
+		</div>
+
+			</div>
+			
+		</div>
+		
+	</section>
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 
 
+
+@* 
 <h1 class="mt-3">Edit Employee</h1>
 <form method="post" action="View" class="mt-5">
     <div class="mb-3">
@@ -83,25 +151,28 @@
     </div>
     <div class="mb-3">
         <label for="" class="form-label">Name</label>
-        <input type="text" class="form-control" asp-for="Name">
+        <input type="text" class="form-control" asp-for="Name" required>
+         @* <span asp-validation-for="Name" class="text-danger"></span> *@
+        @* @Html.ValidationMessageFor(model=>model.Name,"",new {@class="error"}) *@
+        @* <div asp-validation-for="Name"></div>
     </div>
     <div class="mb-3">
         <label for="" class="form-label">Email Address</label>
-        <input type="email" class="form-control" asp-for="Email">
+        <input type="email" class="form-control" asp-for="Email" required>
     </div>
     <div class="mb-3">
         <label for="" class="form-label">Password</label>
-        <input type="number" class="form-control" asp-for="userPassword">
+        <input type="text" class="form-control" asp-for="userPassword" required>
     </div>
     <div class="mb-3">
         <label for="" class="form-label">Date Of Birth</label>
-        <input type="date" class="form-control" asp-for="DateOfBirth">
+        <input type="date" class="form-control" asp-for="DateOfBirth" required>
     </div>
     <div class="mb-3">
         <label for="" class="form-label">Department</label>
-        <input type="text" class="form-control" asp-for="Department">
+        <input type="text" class="form-control" asp-for="Department" required>
     </div>
     <button type="submit" class="btn btn-primary">Save Update</button>
-    <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Employees">Delete</button>
+    <button type="submit" class="btn btn-danger" asp-action="Delete" asp-controller="Admin">Delete</button>
 </form>
-
+  *@

@@ -1,11 +1,3 @@
-// Title       :Online Bus Booking System
-//  Author      :Abinash(IFET)
-// Created at  :01-03-2023
-// Updated at  :13-03-2023
-// Reviewed by :
-// Reviewed at :
-
-
 
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -19,9 +11,13 @@ namespace FirstApp.Controllers
 {
     public class EmployeeController:Controller{
         public  static string? Mail{get;set;}
-        public  static string? password{get;set;}
-    [HttpGet]
-   
+        public  static string? password{get;set;} 
+         private readonly ILogger<HomeController> _logger;
+    public EmployeeController(ILogger<HomeController> logger)
+    {
+        _logger = logger;
+    }
+    [HttpGet]  
     public IActionResult login()
     {
         ClaimsPrincipal claimUser=HttpContext.User;
@@ -36,6 +32,8 @@ namespace FirstApp.Controllers
     [HttpPost]
      public async Task<IActionResult> login(Employee employee,Database database)
     {
+    try{
+       //connection connect=new connection();
        string result= Database.login(employee);
        
        if(result=="success")
@@ -50,7 +48,9 @@ namespace FirstApp.Controllers
         };
         await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
         new ClaimsPrincipal(claimsIdentity),properties);
-        Log.Information("Employee Login Triggered");  
+        _logger.LogInformation(employee.EmailId+"Employee Login Triggered");
+        TempData["mail"]=employee.EmailId;
+       // Log.Information("Employee Login Triggered");  
         return RedirectToAction("Index","Dashboard",employee);
        }
        else if (result=="Admin")
@@ -67,7 +67,14 @@ namespace FirstApp.Controllers
         new ClaimsPrincipal(claimsIdentity),properties);
         return RedirectToAction("Index","Admin");
        }
-        Log.Information("Employee Login Triggered");
+    
+    }
+    catch(Exception ex){
+        Console.WriteLine("Error raised when employee is logged in !"+ex.Message);
+        TempData["msg"]="An error occured please try agin later";
+    }
+    
+       Log.Information("Employee Login Triggered");
        ViewBag.Message="Login fails,Try Again!";
        return View("Login",employee); 
     }

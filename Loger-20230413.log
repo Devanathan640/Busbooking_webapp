@@ -1,0 +1,1319 @@
+2023-04-13 22:41:39.396 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-13 22:41:39.705 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-13 22:41:39.714 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 22:41:39.714 +05:30 [INF] Hosting environment: Development
+2023-04-13 22:41:39.715 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-04-13 22:41:40.691 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:41:41.152 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-13 22:41:41.500 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:41:41.603 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:41:41.656 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:41:42.337 +05:30 [INF] Executed ViewResult - view Index executed in 690.6777ms.
+2023-04-13 22:41:42.342 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 737.5378ms
+2023-04-13 22:41:42.342 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:41:42.380 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 1696.5730ms
+2023-04-13 22:41:42.480 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:41:42.487 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 6.6750ms
+2023-04-13 22:41:45.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 22:41:45.626 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:41:45.631 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:41:45.637 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 22:41:46.022 +05:30 [INF] Executed ViewResult - view login executed in 387.8927ms.
+2023-04-13 22:41:46.023 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 391.9811ms
+2023-04-13 22:41:46.023 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:41:46.026 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 415.1315ms
+2023-04-13 22:41:46.067 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:41:46.068 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9881ms
+2023-04-13 22:41:46.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 22:41:46.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 22:41:46.080 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 22:41:46.083 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 22:41:46.112 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 41.6258ms
+2023-04-13 22:41:46.113 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 29.5696ms
+2023-04-13 22:41:46.113 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 33.3117ms
+2023-04-13 22:41:46.114 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 43.5071ms
+2023-04-13 22:41:57.676 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 22:41:57.678 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:41:57.805 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:41:59.260 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 22:41:59.266 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 22:41:59.266 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 1461.3342ms
+2023-04-13 22:41:59.266 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:41:59.267 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 1590.2835ms
+2023-04-13 22:41:59.273 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 22:41:59.289 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:41:59.386 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:41:59.502 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:41:59.555 +05:30 [INF] Executed ViewResult - view Index executed in 56.6258ms.
+2023-04-13 22:41:59.555 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 168.4851ms
+2023-04-13 22:41:59.555 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:41:59.564 +05:30 [INF] Session started; Key:5fb94fe9-db48-fdf7-25f2-d4a9286e4a7d, Id:15ce830c-b584-b9af-b529-b63cb40fb5a9
+2023-04-13 22:41:59.566 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 293.3907ms
+2023-04-13 22:41:59.598 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:41:59.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4546ms
+2023-04-13 22:42:05.976 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 22:42:05.985 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:42:05.987 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:42:05.989 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 22:42:06.081 +05:30 [INF] Executed ViewResult - view bookRide executed in 92.9311ms.
+2023-04-13 22:42:06.081 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 93.5309ms
+2023-04-13 22:42:06.081 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:42:06.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 105.7716ms
+2023-04-13 22:42:06.102 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:42:06.102 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2893ms
+2023-04-13 22:42:13.989 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:42:14.101 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:42:14.103 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:42:14.105 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:42:14.123 +05:30 [INF] Executed ViewResult - view seatBooked executed in 19.1405ms.
+2023-04-13 22:42:14.123 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 19.7702ms
+2023-04-13 22:42:14.123 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:42:14.123 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 134.8369ms
+2023-04-13 22:42:14.144 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:42:14.145 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2683ms
+2023-04-13 22:42:23.653 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/contact - -
+2023-04-13 22:42:23.654 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.contact (FirstApp)'
+2023-04-13 22:42:23.656 +05:30 [INF] Route matched with {action = "contact", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult contact() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:42:23.659 +05:30 [INF] Executing ViewResult, running view contact.
+2023-04-13 22:42:23.663 +05:30 [INF] Executed ViewResult - view contact executed in 6.2399ms.
+2023-04-13 22:42:23.663 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.contact (FirstApp) in 6.7843ms
+2023-04-13 22:42:23.663 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.contact (FirstApp)'
+2023-04-13 22:42:23.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/contact - - - 200 - text/html;+charset=utf-8 10.3754ms
+2023-04-13 22:42:23.687 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:42:23.688 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2939ms
+2023-04-13 22:42:27.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/map - -
+2023-04-13 22:42:27.816 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.map (FirstApp)'
+2023-04-13 22:42:27.821 +05:30 [INF] Route matched with {action = "map", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult map() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:42:27.824 +05:30 [INF] Executing RedirectResult, redirecting to https://www.google.com/maps/dir//Aspire+Systems,+SIPCOT+IT+Park,+1%2FD-1,+First+Main+Road,+Siruseri,+Tamil+Nadu+603103/@12.9284151,80.1754389,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a525a5d709633d1:0xd457a8c2f985c180!2m2!1d80.2235385!2d12.8303318.
+2023-04-13 22:42:27.825 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.map (FirstApp) in 4.1514ms
+2023-04-13 22:42:27.825 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.map (FirstApp)'
+2023-04-13 22:42:27.826 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/map - - - 302 0 - 11.5502ms
+2023-04-13 22:42:30.920 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:42:30.920 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3050ms
+2023-04-13 22:42:35.922 +05:30 [INF] Application is shutting down...
+2023-04-13 22:48:03.984 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-13 22:48:04.228 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-13 22:48:04.238 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 22:48:04.238 +05:30 [INF] Hosting environment: Development
+2023-04-13 22:48:04.239 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-04-13 22:48:05.135 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:48:05.251 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-13 22:48:05.587 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:48:05.716 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:48:05.779 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:48:06.115 +05:30 [INF] Executed ViewResult - view Index executed in 357.0887ms.
+2023-04-13 22:48:06.121 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 402.5583ms
+2023-04-13 22:48:06.121 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:48:06.165 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 1040.8833ms
+2023-04-13 22:48:06.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:48:06.221 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 7.5910ms
+2023-04-13 22:48:09.520 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 22:48:09.542 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:48:09.550 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:48:09.557 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 22:48:09.780 +05:30 [INF] Executed ViewResult - view login executed in 226.1268ms.
+2023-04-13 22:48:09.781 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 230.6463ms
+2023-04-13 22:48:09.781 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:48:09.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 264.6093ms
+2023-04-13 22:48:09.840 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:48:09.842 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.3681ms
+2023-04-13 22:48:09.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 22:48:09.843 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 22:48:09.853 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 10.9612ms
+2023-04-13 22:48:09.853 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 11.8108ms
+2023-04-13 22:48:09.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 22:48:09.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 22:48:09.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.6563ms
+2023-04-13 22:48:09.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.6562ms
+2023-04-13 22:48:21.681 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 22:48:21.682 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:48:21.728 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:48:22.236 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 22:48:22.244 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 22:48:22.245 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 516.886ms
+2023-04-13 22:48:22.245 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:48:22.245 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 564.2483ms
+2023-04-13 22:48:22.255 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 22:48:22.274 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:48:22.277 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:48:22.307 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:48:22.333 +05:30 [INF] Executed ViewResult - view Index executed in 27.0381ms.
+2023-04-13 22:48:22.333 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 56.3186ms
+2023-04-13 22:48:22.335 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:48:22.342 +05:30 [INF] Session started; Key:465b29a7-31fd-a032-bf81-ca2546b20406, Id:fda4a6a0-2b4c-c1c2-aa3d-205020c56b8a
+2023-04-13 22:48:22.344 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 88.6364ms
+2023-04-13 22:48:22.380 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:48:22.380 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4518ms
+2023-04-13 22:48:24.940 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 22:48:24.951 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:48:24.954 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:48:24.957 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 22:48:24.993 +05:30 [INF] Executed ViewResult - view bookRide executed in 38.1353ms.
+2023-04-13 22:48:24.993 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 39.2438ms
+2023-04-13 22:48:24.993 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:48:24.994 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 53.5067ms
+2023-04-13 22:48:25.017 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:48:25.018 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2926ms
+2023-04-13 22:48:31.626 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:48:31.637 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:48:31.638 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:48:31.641 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:48:31.652 +05:30 [INF] Executed ViewResult - view seatBooked executed in 12.7053ms.
+2023-04-13 22:48:31.652 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 13.5765ms
+2023-04-13 22:48:31.652 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:48:31.653 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 26.7098ms
+2023-04-13 22:48:31.673 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:48:31.673 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2832ms
+2023-04-13 22:48:37.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 22:48:37.979 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 22:48:37.995 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:48:38.001 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 22:48:38.002 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 22:48:38.002 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 6.8074ms
+2023-04-13 22:48:38.002 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 22:48:38.002 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 24.2832ms
+2023-04-13 22:48:38.009 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:48:38.010 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:48:38.010 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:48:38.010 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:48:38.012 +05:30 [INF] Executed ViewResult - view Index executed in 1.7798ms.
+2023-04-13 22:48:38.012 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 2.0281ms
+2023-04-13 22:48:38.012 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:48:38.013 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 3.5701ms
+2023-04-13 22:48:38.033 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:48:38.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2463ms
+2023-04-13 22:49:09.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:49:09.261 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:49:09.264 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:49:09.266 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:49:09.279 +05:30 [INF] Executed ViewResult - view Index executed in 15.3481ms.
+2023-04-13 22:49:09.279 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 15.6895ms
+2023-04-13 22:49:09.280 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:49:09.280 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 20.1902ms
+2023-04-13 22:49:09.339 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:49:09.340 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4919ms
+2023-04-13 22:49:25.279 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:49:25.280 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:49:25.286 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:49:25.289 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:49:25.302 +05:30 [INF] Executed ViewResult - view Index executed in 15.461ms.
+2023-04-13 22:49:25.302 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 15.8313ms
+2023-04-13 22:49:25.302 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:49:25.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 22.9923ms
+2023-04-13 22:49:25.383 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:49:25.384 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2764ms
+2023-04-13 22:49:29.914 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 22:49:29.915 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:49:29.918 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:49:29.922 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 22:49:29.931 +05:30 [INF] Executed ViewResult - view login executed in 12.6157ms.
+2023-04-13 22:49:29.932 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 14.0345ms
+2023-04-13 22:49:29.932 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:49:29.932 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 18.3220ms
+2023-04-13 22:49:29.989 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 22:49:29.997 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 8.5771ms
+2023-04-13 22:49:29.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 22:49:30.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.5700ms
+2023-04-13 22:49:30.000 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:49:30.000 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2465ms
+2023-04-13 22:49:30.000 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 22:49:30.001 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.8588ms
+2023-04-13 22:49:30.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 22:49:30.005 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 3.1960ms
+2023-04-13 22:49:39.256 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 22:49:39.256 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:49:39.278 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:49:39.289 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 22:49:39.290 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 22:49:39.290 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 11.8175ms
+2023-04-13 22:49:39.290 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:49:39.290 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 34.6155ms
+2023-04-13 22:49:39.295 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 22:49:39.296 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:49:39.298 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:49:39.303 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:49:39.306 +05:30 [INF] Executed ViewResult - view Index executed in 3.8069ms.
+2023-04-13 22:49:39.306 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 8.0956ms
+2023-04-13 22:49:39.306 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:49:39.307 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 11.9980ms
+2023-04-13 22:49:39.325 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:49:39.325 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2276ms
+2023-04-13 22:49:42.548 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 22:49:42.549 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:49:42.551 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:49:42.553 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 22:49:42.565 +05:30 [INF] Executed ViewResult - view bookRide executed in 13.3617ms.
+2023-04-13 22:49:42.565 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 13.6297ms
+2023-04-13 22:49:42.565 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:49:42.566 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 18.1473ms
+2023-04-13 22:49:42.587 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:49:42.588 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2998ms
+2023-04-13 22:49:48.185 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:49:48.190 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:49:48.192 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:49:48.194 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:49:48.198 +05:30 [INF] Executed ViewResult - view seatBooked executed in 5.1092ms.
+2023-04-13 22:49:48.198 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 5.9178ms
+2023-04-13 22:49:48.198 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:49:48.199 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 13.6240ms
+2023-04-13 22:49:48.218 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:49:48.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2267ms
+2023-04-13 22:54:32.742 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:54:32.743 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:54:32.747 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:54:32.753 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:54:32.773 +05:30 [INF] Executed ViewResult - view seatBooked executed in 25.5449ms.
+2023-04-13 22:54:32.773 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 25.9805ms
+2023-04-13 22:54:32.774 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:54:32.774 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 32.2478ms
+2023-04-13 22:54:33.784 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:54:33.784 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2784ms
+2023-04-13 22:54:58.143 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:54:58.145 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:54:58.147 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:54:58.150 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:54:58.159 +05:30 [INF] Executed ViewResult - view seatBooked executed in 11.0851ms.
+2023-04-13 22:54:58.159 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 11.423ms
+2023-04-13 22:54:58.159 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:54:58.159 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 16.2094ms
+2023-04-13 22:54:58.185 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:54:58.185 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2299ms
+2023-04-13 22:55:00.756 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:55:00.758 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:55:00.762 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:55:00.764 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:55:00.775 +05:30 [INF] Executed ViewResult - view seatBooked executed in 12.8236ms.
+2023-04-13 22:55:00.775 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 13.132ms
+2023-04-13 22:55:00.775 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:55:00.775 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 19.3547ms
+2023-04-13 22:55:00.811 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:55:00.812 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2344ms
+2023-04-13 22:55:03.178 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278
+2023-04-13 22:55:03.183 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:55:03.186 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:55:03.188 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 22:55:03.197 +05:30 [INF] Executed ViewResult - view seatBooked executed in 10.2987ms.
+2023-04-13 22:55:03.197 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 10.5715ms
+2023-04-13 22:55:03.197 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 22:55:03.197 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/seatBooked application/x-www-form-urlencoded 278 - 200 - text/html;+charset=utf-8 19.3689ms
+2023-04-13 22:55:03.260 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:55:03.260 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2406ms
+2023-04-13 22:55:10.772 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 22:55:10.774 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 22:55:10.788 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:55:10.790 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 22:55:10.790 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 22:55:10.790 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 1.938ms
+2023-04-13 22:55:10.790 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 22:55:10.790 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 18.4610ms
+2023-04-13 22:55:10.799 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:55:10.800 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:55:10.803 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:55:10.806 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:55:10.827 +05:30 [INF] Executed ViewResult - view Index executed in 23.264ms.
+2023-04-13 22:55:10.827 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 23.589ms
+2023-04-13 22:55:10.827 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:55:10.828 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 28.4107ms
+2023-04-13 22:55:10.871 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:55:10.872 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3935ms
+2023-04-13 22:55:12.431 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 22:55:12.435 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:55:12.438 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:55:12.440 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 22:55:12.448 +05:30 [INF] Executed ViewResult - view login executed in 8.9503ms.
+2023-04-13 22:55:12.448 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 9.3663ms
+2023-04-13 22:55:12.448 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:55:12.448 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 17.5153ms
+2023-04-13 22:55:12.496 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 22:55:12.500 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 22:55:12.502 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 2.3099ms
+2023-04-13 22:55:12.505 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 8.8528ms
+2023-04-13 22:55:12.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:55:12.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4433ms
+2023-04-13 22:55:12.509 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 22:55:12.509 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 22:55:12.510 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.7731ms
+2023-04-13 22:55:12.510 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.8553ms
+2023-04-13 22:55:21.189 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 22:55:21.190 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:55:21.223 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 22:55:21.238 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 22:55:21.239 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 22:55:21.239 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 15.7138ms
+2023-04-13 22:55:21.239 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 22:55:21.239 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 50.1749ms
+2023-04-13 22:55:21.245 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 22:55:21.246 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:55:21.247 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:55:21.252 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:55:21.255 +05:30 [INF] Executed ViewResult - view Index executed in 3.735ms.
+2023-04-13 22:55:21.255 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 7.7134ms
+2023-04-13 22:55:21.255 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 22:55:21.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 11.0000ms
+2023-04-13 22:55:21.278 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:55:21.279 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2440ms
+2023-04-13 22:55:23.277 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 22:55:23.278 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:55:23.280 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:55:23.282 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 22:55:23.340 +05:30 [INF] Executed ViewResult - view bookRide executed in 60.232ms.
+2023-04-13 22:55:23.340 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 60.4293ms
+2023-04-13 22:55:23.340 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:55:23.341 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 63.5500ms
+2023-04-13 22:55:23.397 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:55:23.398 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2910ms
+2023-04-13 22:55:28.287 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 22:55:28.297 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 22:55:28.300 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 22:56:58.940 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-13 22:56:59.149 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-13 22:56:59.158 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 22:56:59.159 +05:30 [INF] Hosting environment: Development
+2023-04-13 22:56:59.159 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-04-13 22:57:00.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 22:57:00.201 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-13 22:57:00.482 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:57:00.627 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 22:57:00.669 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 22:57:00.939 +05:30 [INF] Executed ViewResult - view Index executed in 284.5644ms.
+2023-04-13 22:57:00.945 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 316.3808ms
+2023-04-13 22:57:00.946 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 22:57:00.992 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 885.1756ms
+2023-04-13 22:57:01.039 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 22:57:01.045 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 5.4118ms
+2023-04-13 23:12:46.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:12:46.838 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:12:46.842 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:12:46.848 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:12:47.023 +05:30 [INF] Executed ViewResult - view login executed in 177.7506ms.
+2023-04-13 23:12:47.024 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 181.7212ms
+2023-04-13 23:12:47.024 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:12:47.026 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 206.2137ms
+2023-04-13 23:12:47.073 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:12:47.076 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:12:47.087 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:12:47.088 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.8405ms
+2023-04-13 23:12:47.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:12:47.089 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 12.7884ms
+2023-04-13 23:12:47.089 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:12:47.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.2985ms
+2023-04-13 23:12:47.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.9294ms
+2023-04-13 23:12:47.091 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 18.0308ms
+2023-04-13 23:12:56.905 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:12:56.906 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:12:57.019 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:12:57.522 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:12:57.526 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:12:57.526 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 506.3246ms
+2023-04-13 23:12:57.526 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:12:57.526 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 621.2364ms
+2023-04-13 23:12:57.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:12:57.543 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:12:57.545 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:12:57.568 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:12:57.588 +05:30 [INF] Executed ViewResult - view Index executed in 21.6901ms.
+2023-04-13 23:12:57.588 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 43.3933ms
+2023-04-13 23:12:57.588 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:12:57.593 +05:30 [INF] Session started; Key:a26e7c86-bd08-547f-cf73-14b6f89188e3, Id:4d1f2cdb-d8ab-8c59-7b22-6f02dd7b6211
+2023-04-13 23:12:57.595 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 64.1267ms
+2023-04-13 23:12:57.626 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:12:57.626 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6198ms
+2023-04-13 23:12:59.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:12:59.096 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:12:59.100 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:12:59.103 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:12:59.134 +05:30 [INF] Executed ViewResult - view bookRide executed in 33.3852ms.
+2023-04-13 23:12:59.135 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 34.2789ms
+2023-04-13 23:12:59.135 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:12:59.135 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 46.9789ms
+2023-04-13 23:12:59.153 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:12:59.153 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2810ms
+2023-04-13 23:13:09.876 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:13:09.886 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:13:09.889 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:16:06.794 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-13 23:16:07.074 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-13 23:16:07.083 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 23:16:07.084 +05:30 [INF] Hosting environment: Development
+2023-04-13 23:16:07.084 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-04-13 23:16:08.180 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:16:08.319 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-13 23:16:08.561 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:16:08.674 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:16:08.717 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:16:09.008 +05:30 [INF] Executed ViewResult - view Index executed in 303.5987ms.
+2023-04-13 23:16:09.013 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 338.2023ms
+2023-04-13 23:16:09.014 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:16:09.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 908.9234ms
+2023-04-13 23:16:09.215 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:16:09.225 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 9.4441ms
+2023-04-13 23:16:19.223 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:16:19.240 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:16:19.245 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:16:19.252 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:16:19.539 +05:30 [INF] Executed ViewResult - view login executed in 290.503ms.
+2023-04-13 23:16:19.540 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 295.1682ms
+2023-04-13 23:16:19.540 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:16:19.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 321.4500ms
+2023-04-13 23:16:19.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:16:19.589 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:16:19.601 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:16:19.602 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 12.2252ms
+2023-04-13 23:16:19.602 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:16:19.603 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.7034ms
+2023-04-13 23:16:19.604 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.0152ms
+2023-04-13 23:16:19.604 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 17.9187ms
+2023-04-13 23:16:19.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:16:19.606 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 1.0584ms
+2023-04-13 23:16:29.631 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:16:29.632 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:16:29.684 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:16:30.066 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:16:30.070 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:16:30.070 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 386.2985ms
+2023-04-13 23:16:30.070 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:16:30.071 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 439.7605ms
+2023-04-13 23:16:30.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:16:30.085 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:16:30.087 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:16:30.115 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:16:30.135 +05:30 [INF] Executed ViewResult - view Index executed in 21.6231ms.
+2023-04-13 23:16:30.136 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 48.3627ms
+2023-04-13 23:16:30.136 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:16:30.142 +05:30 [INF] Session started; Key:09ea0cce-df76-7b7b-1764-359ca6132aba, Id:3d111345-52b2-fee4-64d7-ec97d3e492f7
+2023-04-13 23:16:30.144 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 68.8022ms
+2023-04-13 23:16:30.171 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:16:30.172 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4166ms
+2023-04-13 23:16:32.077 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:16:32.083 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:16:32.085 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:16:32.087 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:16:32.131 +05:30 [INF] Executed ViewResult - view bookRide executed in 45.4855ms.
+2023-04-13 23:16:32.132 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 46.1412ms
+2023-04-13 23:16:32.132 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:16:32.132 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 55.1415ms
+2023-04-13 23:16:32.167 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:16:32.168 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2702ms
+2023-04-13 23:16:37.431 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:16:37.443 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:16:37.446 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:16:37.452 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option4.
+2023-04-13 23:16:37.452 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 5.9519ms
+2023-04-13 23:16:37.452 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:16:37.453 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 21.1028ms
+2023-04-13 23:16:37.458 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:16:37.459 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:16:37.460 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:16:37.462 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:16:37.476 +05:30 [INF] Executed ViewResult - view seatBooked executed in 15.4734ms.
+2023-04-13 23:16:37.476 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 15.9564ms
+2023-04-13 23:16:37.476 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:16:37.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 19.1493ms
+2023-04-13 23:16:37.503 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:16:37.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4694ms
+2023-04-13 23:17:03.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:17:03.518 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:17:03.522 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:17:03.525 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:17:03.541 +05:30 [INF] Executed ViewResult - view seatBooked executed in 19.3093ms.
+2023-04-13 23:17:03.542 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 19.6058ms
+2023-04-13 23:17:03.542 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:17:03.542 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 26.9364ms
+2023-04-13 23:17:03.570 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:17:03.570 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2287ms
+2023-04-13 23:17:19.220 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 23:17:19.229 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:17:19.236 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:17:19.240 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 23:17:19.240 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 23:17:19.240 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 4.1407ms
+2023-04-13 23:17:19.240 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:17:19.243 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 21.3349ms
+2023-04-13 23:17:19.250 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:17:19.250 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:17:19.253 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:17:19.254 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:17:19.257 +05:30 [INF] Executed ViewResult - view Index executed in 4.4574ms.
+2023-04-13 23:17:19.258 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 4.7703ms
+2023-04-13 23:17:19.258 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:17:19.258 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 8.4717ms
+2023-04-13 23:17:19.288 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:17:19.288 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2532ms
+2023-04-13 23:17:20.996 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:17:20.997 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:17:20.999 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:17:21.003 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:17:21.012 +05:30 [INF] Executed ViewResult - view login executed in 11.546ms.
+2023-04-13 23:17:21.012 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 12.8339ms
+2023-04-13 23:17:21.012 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:17:21.013 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 17.0988ms
+2023-04-13 23:17:21.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:17:21.057 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:17:21.059 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:17:21.059 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 2.7017ms
+2023-04-13 23:17:21.059 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.7031ms
+2023-04-13 23:17:21.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.8117ms
+2023-04-13 23:17:21.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:17:21.060 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:17:21.061 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.8992ms
+2023-04-13 23:17:21.061 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.0648ms
+2023-04-13 23:17:29.448 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:17:29.449 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:17:29.476 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:17:29.484 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:17:29.485 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:17:29.485 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 8.7075ms
+2023-04-13 23:17:29.485 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:17:29.485 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 36.9093ms
+2023-04-13 23:17:29.491 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:17:29.492 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:17:29.494 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:17:29.499 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:17:29.502 +05:30 [INF] Executed ViewResult - view Index executed in 3.7897ms.
+2023-04-13 23:17:29.502 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 7.719ms
+2023-04-13 23:17:29.502 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:17:29.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 12.2132ms
+2023-04-13 23:17:29.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:17:29.531 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3239ms
+2023-04-13 23:17:31.236 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:17:31.241 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:17:31.243 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:17:31.247 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:17:31.254 +05:30 [INF] Executed ViewResult - view bookRide executed in 8.9172ms.
+2023-04-13 23:17:31.254 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 9.8206ms
+2023-04-13 23:17:31.254 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:17:31.254 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 18.2935ms
+2023-04-13 23:17:31.274 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:17:31.274 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2400ms
+2023-04-13 23:17:35.872 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:17:35.873 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:17:35.876 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:17:36.059 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 182.2916ms
+2023-04-13 23:17:36.072 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:17:36.220 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Operand type clash: int is incompatible with uniqueidentifier
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser)
+   at lambda_method127(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:3099933b-2698-470e-9bac-3f3613e7b8b1
+Error Number:206,State:2,Class:16
+2023-04-13 23:17:36.331 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 500 - text/html;+charset=utf-8 459.9316ms
+2023-04-13 23:17:36.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:17:36.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2399ms
+2023-04-13 23:19:18.145 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:19:18.155 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:19:18.164 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:19:18.181 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 17.167ms
+2023-04-13 23:19:18.181 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:19:18.192 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at FirstApp.Models.CurrentUser.bookBus(String Destination, String Date)
+   at FirstApp.Controllers.DashboardController.bookRide(CurrentUser currentUser)
+   at lambda_method130(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-04-13 23:19:18.221 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 500 - text/html;+charset=utf-8 76.4603ms
+2023-04-13 23:19:18.283 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:19:18.284 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.5680ms
+2023-04-13 23:19:25.981 +05:30 [INF] Application is shutting down...
+2023-04-13 23:19:46.666 +05:30 [INF] User profile is available. Using 'C:\Users\abi6\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-13 23:19:46.903 +05:30 [INF] Now listening on: http://localhost:5260
+2023-04-13 23:19:46.912 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-13 23:19:46.913 +05:30 [INF] Hosting environment: Development
+2023-04-13 23:19:46.913 +05:30 [INF] Content root path: C:\Users\abi6\Desktop\FirstApp
+2023-04-13 23:19:47.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:19:48.010 +05:30 [WRN] Failed to determine the https port for redirect.
+2023-04-13 23:19:48.310 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:19:48.438 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:19:48.473 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:19:48.735 +05:30 [INF] Executed ViewResult - view Index executed in 270.3515ms.
+2023-04-13 23:19:48.741 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 301.9015ms
+2023-04-13 23:19:48.741 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:19:48.783 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 915.6151ms
+2023-04-13 23:19:48.837 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:19:48.846 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 8.5777ms
+2023-04-13 23:19:51.160 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:19:51.173 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:19:51.179 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:19:51.187 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:19:51.464 +05:30 [INF] Executed ViewResult - view login executed in 280.9476ms.
+2023-04-13 23:19:51.465 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 285.7828ms
+2023-04-13 23:19:51.465 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:19:51.469 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 309.1371ms
+2023-04-13 23:19:51.512 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:19:51.513 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.8627ms
+2023-04-13 23:19:51.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:19:51.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:19:51.525 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 10.9839ms
+2023-04-13 23:19:51.525 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:19:51.527 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.4102ms
+2023-04-13 23:19:51.527 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:19:51.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.9494ms
+2023-04-13 23:19:51.535 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 20.2977ms
+2023-04-13 23:20:00.882 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:20:00.883 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:20:00.930 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:20:01.327 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:20:01.331 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:20:01.331 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 400.9365ms
+2023-04-13 23:20:01.331 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:20:01.331 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 449.6454ms
+2023-04-13 23:20:01.337 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:20:01.348 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:20:01.351 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:20:01.377 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:20:01.405 +05:30 [INF] Executed ViewResult - view Index executed in 29.7498ms.
+2023-04-13 23:20:01.406 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 54.7983ms
+2023-04-13 23:20:01.406 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:20:01.411 +05:30 [INF] Session started; Key:cb420168-36ed-339f-1714-49eb102ad025, Id:df5a3d35-fab0-320c-49d9-678f4cffc0c3
+2023-04-13 23:20:01.413 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 75.9981ms
+2023-04-13 23:20:01.442 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:20:01.442 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4322ms
+2023-04-13 23:20:03.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:20:03.372 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:20:03.375 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:20:03.378 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:20:03.415 +05:30 [INF] Executed ViewResult - view bookRide executed in 39.3609ms.
+2023-04-13 23:20:03.416 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 40.1154ms
+2023-04-13 23:20:03.416 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:20:03.416 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 52.5112ms
+2023-04-13 23:20:03.435 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:20:03.435 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2611ms
+2023-04-13 23:20:08.279 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:20:08.289 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:20:08.292 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:20:08.450 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option4.
+2023-04-13 23:20:08.451 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 159.4488ms
+2023-04-13 23:20:08.452 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:20:08.452 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 172.7348ms
+2023-04-13 23:20:08.465 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:20:08.467 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:20:08.471 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:20:08.475 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:20:08.514 +05:30 [INF] Executed ViewResult - view seatBooked executed in 42.6135ms.
+2023-04-13 23:20:08.515 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 43.663ms
+2023-04-13 23:20:08.515 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:20:08.515 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 49.5680ms
+2023-04-13 23:20:08.543 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:20:08.543 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3131ms
+2023-04-13 23:21:56.447 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:21:56.450 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:21:56.453 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:21:56.456 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:21:56.470 +05:30 [INF] Executed ViewResult - view seatBooked executed in 16.9126ms.
+2023-04-13 23:21:56.471 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 17.2405ms
+2023-04-13 23:21:56.471 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:21:56.472 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 24.7871ms
+2023-04-13 23:21:56.535 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:21:56.536 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3289ms
+2023-04-13 23:29:53.721 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:29:53.723 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:29:53.730 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:29:53.732 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:29:53.749 +05:30 [INF] Executed ViewResult - view seatBooked executed in 18.0673ms.
+2023-04-13 23:29:53.749 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 18.4049ms
+2023-04-13 23:29:53.749 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:29:53.750 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 28.4420ms
+2023-04-13 23:29:53.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:29:53.802 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2442ms
+2023-04-13 23:30:43.207 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:30:43.209 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:30:43.212 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:30:43.215 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:30:43.229 +05:30 [INF] Executed ViewResult - view seatBooked executed in 16.6624ms.
+2023-04-13 23:30:43.229 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 17.0908ms
+2023-04-13 23:30:43.229 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:30:43.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 22.6921ms
+2023-04-13 23:30:43.251 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:30:43.251 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2757ms
+2023-04-13 23:30:46.765 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:30:46.768 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:30:46.771 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:30:46.774 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:30:46.784 +05:30 [INF] Executed ViewResult - view seatBooked executed in 13.2595ms.
+2023-04-13 23:30:46.784 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 13.5023ms
+2023-04-13 23:30:46.784 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:30:46.784 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 19.5868ms
+2023-04-13 23:30:46.848 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:30:46.848 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2689ms
+2023-04-13 23:31:25.806 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 23:31:25.815 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:31:25.823 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:31:25.827 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 23:31:25.827 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 23:31:25.828 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 4.4384ms
+2023-04-13 23:31:25.828 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:31:25.828 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 22.3884ms
+2023-04-13 23:31:25.834 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:31:25.835 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:31:25.836 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:31:25.837 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:31:25.841 +05:30 [INF] Executed ViewResult - view Index executed in 4.0614ms.
+2023-04-13 23:31:25.841 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 4.2801ms
+2023-04-13 23:31:25.841 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:31:25.841 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 7.1391ms
+2023-04-13 23:31:25.870 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:31:25.870 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2429ms
+2023-04-13 23:31:34.540 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:31:34.541 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:31:34.543 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:31:34.547 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:31:34.556 +05:30 [INF] Executed ViewResult - view login executed in 10.6786ms.
+2023-04-13 23:31:34.556 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 13.5857ms
+2023-04-13 23:31:34.556 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:31:34.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 16.8958ms
+2023-04-13 23:31:34.599 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:31:34.602 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:31:34.605 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 2.1299ms
+2023-04-13 23:31:34.605 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.4090ms
+2023-04-13 23:31:34.608 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:31:34.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2641ms
+2023-04-13 23:31:34.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:31:34.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:31:34.611 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.6498ms
+2023-04-13 23:31:34.611 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.6380ms
+2023-04-13 23:31:45.301 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:31:45.301 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:31:45.324 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:31:45.338 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:31:45.339 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:31:45.339 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 14.939ms
+2023-04-13 23:31:45.339 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:31:45.339 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 38.4903ms
+2023-04-13 23:31:45.344 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:31:45.344 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:31:45.346 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:31:45.369 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:31:45.372 +05:30 [INF] Executed ViewResult - view Index executed in 4.5892ms.
+2023-04-13 23:31:45.372 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 25.6871ms
+2023-04-13 23:31:45.372 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:31:45.373 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 29.0088ms
+2023-04-13 23:31:45.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:31:45.392 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2401ms
+2023-04-13 23:31:47.626 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:31:47.634 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:31:47.637 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:31:47.639 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:31:47.645 +05:30 [INF] Executed ViewResult - view bookRide executed in 7.3976ms.
+2023-04-13 23:31:47.645 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 7.7013ms
+2023-04-13 23:31:47.645 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:31:47.645 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 18.5504ms
+2023-04-13 23:31:47.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:31:47.667 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2162ms
+2023-04-13 23:32:08.712 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:32:08.713 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:32:08.717 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:32:08.735 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option1.
+2023-04-13 23:32:08.735 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 17.9173ms
+2023-04-13 23:32:08.735 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:32:08.735 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 23.8564ms
+2023-04-13 23:32:08.745 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option1 - -
+2023-04-13 23:32:08.746 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:32:08.746 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:32:08.746 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:32:08.747 +05:30 [INF] Executed ViewResult - view seatBooked executed in 0.715ms.
+2023-04-13 23:32:08.747 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 0.9068ms
+2023-04-13 23:32:08.747 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:32:08.747 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option1 - - - 200 - text/html;+charset=utf-8 2.1907ms
+2023-04-13 23:32:08.777 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:32:08.777 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3369ms
+2023-04-13 23:32:55.689 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option1 - -
+2023-04-13 23:32:55.693 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:32:55.695 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:32:55.697 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:32:55.714 +05:30 [INF] Executed ViewResult - view seatBooked executed in 18.7383ms.
+2023-04-13 23:32:55.714 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 19.12ms
+2023-04-13 23:32:55.715 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:32:55.715 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option1 - - - 200 - text/html;+charset=utf-8 25.4838ms
+2023-04-13 23:32:55.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:32:55.757 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2404ms
+2023-04-13 23:33:18.876 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option1 - -
+2023-04-13 23:33:18.877 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:33:18.888 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:33:18.890 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:33:18.901 +05:30 [INF] Executed ViewResult - view seatBooked executed in 12.6658ms.
+2023-04-13 23:33:18.901 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 12.9999ms
+2023-04-13 23:33:18.901 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:33:18.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option1 - - - 200 - text/html;+charset=utf-8 25.0600ms
+2023-04-13 23:33:18.955 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:33:18.956 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.8236ms
+2023-04-13 23:34:06.330 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 23:34:06.337 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:34:06.347 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:34:06.348 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 23:34:06.348 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 23:34:06.348 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 1.0383ms
+2023-04-13 23:34:06.348 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:34:06.348 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 17.8066ms
+2023-04-13 23:34:06.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:34:06.357 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:34:06.358 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:34:06.360 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:34:06.364 +05:30 [INF] Executed ViewResult - view Index executed in 5.2785ms.
+2023-04-13 23:34:06.364 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 5.5092ms
+2023-04-13 23:34:06.364 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:34:06.364 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 8.6590ms
+2023-04-13 23:34:06.413 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:34:06.414 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.6707ms
+2023-04-13 23:35:06.065 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:35:06.066 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:35:06.072 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:35:06.074 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:35:06.081 +05:30 [INF] Executed ViewResult - view login executed in 8.7787ms.
+2023-04-13 23:35:06.081 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 9.1228ms
+2023-04-13 23:35:06.081 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:35:06.081 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 16.4566ms
+2023-04-13 23:35:06.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:35:06.127 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:35:06.128 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.2043ms
+2023-04-13 23:35:06.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:35:06.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:35:06.128 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2596ms
+2023-04-13 23:35:06.128 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 1.2894ms
+2023-04-13 23:35:06.128 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:35:06.129 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.7361ms
+2023-04-13 23:35:06.134 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 5.4045ms
+2023-04-13 23:35:15.788 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:35:15.789 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:35:15.811 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:35:15.821 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:35:15.822 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:35:15.822 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 10.2371ms
+2023-04-13 23:35:15.822 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:35:15.822 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 34.3540ms
+2023-04-13 23:35:15.829 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:35:15.829 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:35:15.831 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:35:15.839 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:35:15.841 +05:30 [INF] Executed ViewResult - view Index executed in 3.2783ms.
+2023-04-13 23:35:15.841 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 9.852ms
+2023-04-13 23:35:15.841 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:35:15.842 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 12.9700ms
+2023-04-13 23:35:15.864 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:35:15.865 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2553ms
+2023-04-13 23:35:17.738 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:35:17.747 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:35:17.750 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:35:17.752 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:35:17.758 +05:30 [INF] Executed ViewResult - view bookRide executed in 7.6342ms.
+2023-04-13 23:35:17.758 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 7.8865ms
+2023-04-13 23:35:17.758 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:35:17.759 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 20.7256ms
+2023-04-13 23:35:17.778 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:35:17.778 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2083ms
+2023-04-13 23:35:23.012 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:35:23.014 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:35:23.019 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:35:23.058 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option2.
+2023-04-13 23:35:23.058 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 38.4903ms
+2023-04-13 23:35:23.058 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:35:23.058 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 45.7629ms
+2023-04-13 23:35:23.063 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:35:23.064 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:35:23.064 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:35:23.065 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:35:23.065 +05:30 [INF] Executed ViewResult - view seatBooked executed in 0.6759ms.
+2023-04-13 23:35:23.065 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 0.8264ms
+2023-04-13 23:35:23.065 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:35:23.066 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 2.0752ms
+2023-04-13 23:35:23.090 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:35:23.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2043ms
+2023-04-13 23:40:42.639 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:40:42.640 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:40:42.643 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:40:42.651 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:40:42.661 +05:30 [INF] Executed ViewResult - view seatBooked executed in 14.2483ms.
+2023-04-13 23:40:42.661 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 15.4789ms
+2023-04-13 23:40:42.661 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:40:42.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 22.7962ms
+2023-04-13 23:40:42.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:40:42.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2668ms
+2023-04-13 23:40:44.157 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:40:44.158 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:40:44.159 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:40:44.167 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:40:44.178 +05:30 [INF] Executed ViewResult - view seatBooked executed in 18.5525ms.
+2023-04-13 23:40:44.178 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 18.8594ms
+2023-04-13 23:40:44.178 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:40:44.179 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 21.7902ms
+2023-04-13 23:40:44.212 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:40:44.212 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2729ms
+2023-04-13 23:42:07.349 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:42:07.350 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:42:07.353 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:42:07.355 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:42:07.370 +05:30 [INF] Executed ViewResult - view seatBooked executed in 17.1311ms.
+2023-04-13 23:42:07.371 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 17.9438ms
+2023-04-13 23:42:07.371 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:42:07.371 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 21.5572ms
+2023-04-13 23:42:07.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:42:07.464 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2409ms
+2023-04-13 23:42:35.422 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:42:35.423 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:42:35.428 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:42:35.431 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:42:35.443 +05:30 [INF] Executed ViewResult - view seatBooked executed in 15.1157ms.
+2023-04-13 23:42:35.443 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 15.3489ms
+2023-04-13 23:42:35.443 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:42:35.443 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 20.9991ms
+2023-04-13 23:42:35.557 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:42:35.557 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2089ms
+2023-04-13 23:42:41.788 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 23:42:41.793 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:42:41.806 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:42:41.807 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 23:42:41.807 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 23:42:41.807 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 0.4957ms
+2023-04-13 23:42:41.807 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:42:41.807 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 19.0010ms
+2023-04-13 23:42:41.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:42:41.815 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:42:41.817 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:42:41.819 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:42:41.823 +05:30 [INF] Executed ViewResult - view Index executed in 5.212ms.
+2023-04-13 23:42:41.823 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 5.452ms
+2023-04-13 23:42:41.823 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:42:41.823 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 8.8039ms
+2023-04-13 23:42:41.855 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:42:41.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2175ms
+2023-04-13 23:42:43.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:42:43.580 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:42:43.582 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:42:43.585 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:42:43.595 +05:30 [INF] Executed ViewResult - view login executed in 12.103ms.
+2023-04-13 23:42:43.595 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 12.5445ms
+2023-04-13 23:42:43.595 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:42:43.595 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 15.6771ms
+2023-04-13 23:42:43.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:42:43.641 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:42:43.643 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.6618ms
+2023-04-13 23:42:43.644 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 3.0920ms
+2023-04-13 23:42:43.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:42:43.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.0068ms
+2023-04-13 23:42:43.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:42:43.650 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 1.8816ms
+2023-04-13 23:42:43.662 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:42:43.663 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.9587ms
+2023-04-13 23:42:56.061 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:42:56.061 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:42:56.090 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:42:56.345 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:42:56.346 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:42:56.346 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 255.5378ms
+2023-04-13 23:42:56.346 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:42:56.346 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 285.5379ms
+2023-04-13 23:42:56.352 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:42:56.353 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:42:56.355 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:42:56.360 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:42:56.363 +05:30 [INF] Executed ViewResult - view Index executed in 3.9389ms.
+2023-04-13 23:42:56.363 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 7.9935ms
+2023-04-13 23:42:56.363 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:42:56.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 11.0707ms
+2023-04-13 23:42:56.387 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:42:56.388 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2046ms
+2023-04-13 23:42:58.706 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:42:58.710 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:42:58.712 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:42:58.713 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:42:58.719 +05:30 [INF] Executed ViewResult - view bookRide executed in 6.4806ms.
+2023-04-13 23:42:58.719 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 6.9283ms
+2023-04-13 23:42:58.719 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:42:58.720 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 14.1964ms
+2023-04-13 23:42:58.737 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:42:58.738 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1956ms
+2023-04-13 23:43:03.916 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:43:03.917 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:43:03.920 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:43:03.962 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option2.
+2023-04-13 23:43:03.962 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 42.6654ms
+2023-04-13 23:43:03.962 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:43:03.963 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 47.0172ms
+2023-04-13 23:43:03.970 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:43:03.970 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:43:03.971 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:43:03.971 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:43:03.972 +05:30 [INF] Executed ViewResult - view seatBooked executed in 0.9161ms.
+2023-04-13 23:43:03.972 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 1.0689ms
+2023-04-13 23:43:03.972 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:43:03.972 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 2.1043ms
+2023-04-13 23:43:03.992 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:43:03.992 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2234ms
+2023-04-13 23:43:31.355 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:43:31.356 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:43:31.359 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:43:31.363 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:43:31.375 +05:30 [INF] Executed ViewResult - view seatBooked executed in 15.5866ms.
+2023-04-13 23:43:31.375 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 15.7993ms
+2023-04-13 23:43:31.375 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:43:31.375 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 20.6329ms
+2023-04-13 23:43:31.407 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:43:31.407 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2413ms
+2023-04-13 23:43:34.598 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - -
+2023-04-13 23:43:34.599 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:43:34.602 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:43:34.605 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:43:34.617 +05:30 [INF] Executed ViewResult - view seatBooked executed in 14.3786ms.
+2023-04-13 23:43:34.617 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 14.6145ms
+2023-04-13 23:43:34.617 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:43:34.617 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option2 - - - 200 - text/html;+charset=utf-8 19.3720ms
+2023-04-13 23:43:34.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:43:34.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1904ms
+2023-04-13 23:44:46.052 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 23:44:46.058 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:44:46.069 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:44:46.069 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 23:44:46.069 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 23:44:46.070 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 0.5377ms
+2023-04-13 23:44:46.070 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:44:46.070 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 17.9286ms
+2023-04-13 23:44:46.075 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:44:46.075 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:44:46.077 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:44:46.078 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:44:46.081 +05:30 [INF] Executed ViewResult - view Index executed in 3.9051ms.
+2023-04-13 23:44:46.081 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 4.0831ms
+2023-04-13 23:44:46.081 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:44:46.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 6.6920ms
+2023-04-13 23:44:46.111 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:44:46.111 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2797ms
+2023-04-13 23:44:47.834 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:44:47.834 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:44:47.837 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:44:47.839 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:44:47.849 +05:30 [INF] Executed ViewResult - view login executed in 11.9479ms.
+2023-04-13 23:44:47.849 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 12.236ms
+2023-04-13 23:44:47.849 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:44:47.849 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 15.5864ms
+2023-04-13 23:44:47.892 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:44:47.894 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:44:47.897 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 3.5641ms
+2023-04-13 23:44:47.898 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:44:47.898 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1391ms
+2023-04-13 23:44:47.898 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.5070ms
+2023-04-13 23:44:47.899 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:44:47.900 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 1.1644ms
+2023-04-13 23:44:47.900 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:44:47.901 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.6689ms
+2023-04-13 23:44:59.639 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:44:59.640 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:44:59.677 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:44:59.687 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:44:59.687 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:44:59.687 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 10.4387ms
+2023-04-13 23:44:59.688 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:44:59.688 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 48.5723ms
+2023-04-13 23:44:59.695 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:44:59.696 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:44:59.698 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:44:59.704 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:44:59.707 +05:30 [INF] Executed ViewResult - view Index executed in 5.2245ms.
+2023-04-13 23:44:59.707 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 9.4528ms
+2023-04-13 23:44:59.707 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:44:59.708 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 12.7003ms
+2023-04-13 23:44:59.732 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:44:59.732 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2140ms
+2023-04-13 23:45:02.243 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:45:02.249 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:45:02.251 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:02.253 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:45:02.259 +05:30 [INF] Executed ViewResult - view bookRide executed in 7.7696ms.
+2023-04-13 23:45:02.259 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 8.0085ms
+2023-04-13 23:45:02.260 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:45:02.260 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 16.6011ms
+2023-04-13 23:45:02.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:02.282 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1940ms
+2023-04-13 23:45:06.441 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:45:06.442 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:45:06.448 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:06.480 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option4.
+2023-04-13 23:45:06.480 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 31.4203ms
+2023-04-13 23:45:06.480 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:45:06.480 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 38.4314ms
+2023-04-13 23:45:06.487 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:45:06.487 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:06.488 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:06.488 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:45:06.491 +05:30 [INF] Executed ViewResult - view seatBooked executed in 2.6594ms.
+2023-04-13 23:45:06.491 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 2.9752ms
+2023-04-13 23:45:06.491 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:06.491 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 4.7237ms
+2023-04-13 23:45:06.530 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:06.530 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.3009ms
+2023-04-13 23:45:20.497 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:45:20.498 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:20.509 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:20.511 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:45:20.520 +05:30 [INF] Executed ViewResult - view seatBooked executed in 10.8273ms.
+2023-04-13 23:45:20.520 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 11.0394ms
+2023-04-13 23:45:20.520 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:20.520 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 23.1499ms
+2023-04-13 23:45:20.554 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:20.554 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1622ms
+2023-04-13 23:45:24.235 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:45:24.237 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:24.242 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:24.245 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:45:24.256 +05:30 [INF] Executed ViewResult - view seatBooked executed in 13.108ms.
+2023-04-13 23:45:24.256 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 13.3366ms
+2023-04-13 23:45:24.256 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:24.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 21.2830ms
+2023-04-13 23:45:24.276 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:24.276 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1800ms
+2023-04-13 23:45:35.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - -
+2023-04-13 23:45:35.536 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:35.539 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:35.541 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:45:35.555 +05:30 [INF] Executed ViewResult - view seatBooked executed in 16.1205ms.
+2023-04-13 23:45:35.555 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 16.3272ms
+2023-04-13 23:45:35.555 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:45:35.556 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option4 - - - 200 - text/html;+charset=utf-8 21.9642ms
+2023-04-13 23:45:35.577 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:35.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2726ms
+2023-04-13 23:45:38.963 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Home/logOut - -
+2023-04-13 23:45:38.966 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:45:38.974 +05:30 [INF] Route matched with {action = "logOut", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] logOut() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:45:38.974 +05:30 [INF] AuthenticationScheme: Cookies signed out.
+2023-04-13 23:45:38.975 +05:30 [INF] Executing RedirectResult, redirecting to /.
+2023-04-13 23:45:38.975 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.logOut (FirstApp) in 0.5253ms
+2023-04-13 23:45:38.975 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.logOut (FirstApp)'
+2023-04-13 23:45:38.975 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Home/logOut - - - 302 0 - 11.8579ms
+2023-04-13 23:45:38.981 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/ - -
+2023-04-13 23:45:38.981 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:45:38.983 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FirstApp.Controllers.HomeController (FirstApp).
+2023-04-13 23:45:38.984 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:45:38.989 +05:30 [INF] Executed ViewResult - view Index executed in 5.5279ms.
+2023-04-13 23:45:38.989 +05:30 [INF] Executed action FirstApp.Controllers.HomeController.Index (FirstApp) in 5.7441ms
+2023-04-13 23:45:38.989 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.HomeController.Index (FirstApp)'
+2023-04-13 23:45:38.989 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/ - - - 200 - text/html;+charset=utf-8 8.4002ms
+2023-04-13 23:45:39.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:39.021 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2523ms
+2023-04-13 23:45:40.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/login - -
+2023-04-13 23:45:40.781 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:45:40.784 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login() on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:45:40.786 +05:30 [INF] Executing ViewResult, running view login.
+2023-04-13 23:45:40.795 +05:30 [INF] Executed ViewResult - view login executed in 11.274ms.
+2023-04-13 23:45:40.796 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 11.8487ms
+2023-04-13 23:45:40.796 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:45:40.796 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/login - - - 200 - text/html;+charset=utf-8 15.5956ms
+2023-04-13 23:45:40.851 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - -
+2023-04-13 23:45:40.853 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - -
+2023-04-13 23:45:40.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/jquery.min.js - - - 404 0 - 5.6175ms
+2023-04-13 23:45:40.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/popper.js - - - 404 0 - 3.6981ms
+2023-04-13 23:45:40.857 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:40.857 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - -
+2023-04-13 23:45:40.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2017ms
+2023-04-13 23:45:40.858 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/main.js - - - 404 0 - 0.6224ms
+2023-04-13 23:45:40.858 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - -
+2023-04-13 23:45:40.859 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Employee/js/bootstrap.min.js - - - 404 0 - 0.9038ms
+2023-04-13 23:45:52.438 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246
+2023-04-13 23:45:52.438 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:45:52.462 +05:30 [INF] Route matched with {action = "login", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(FirstApp.Models.Employee, FirstApp.Models.Database) on controller FirstApp.Controllers.EmployeeController (FirstApp).
+2023-04-13 23:45:52.468 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2023-04-13 23:45:52.468 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00.
+2023-04-13 23:45:52.468 +05:30 [INF] Executed action FirstApp.Controllers.EmployeeController.login (FirstApp) in 6.229ms
+2023-04-13 23:45:52.468 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.EmployeeController.login (FirstApp)'
+2023-04-13 23:45:52.468 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Employee/login application/x-www-form-urlencoded 246 - 302 0 - 30.4914ms
+2023-04-13 23:45:52.474 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - -
+2023-04-13 23:45:52.475 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:45:52.477 +05:30 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(FirstApp.Models.Employee) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:52.482 +05:30 [INF] Executing ViewResult, running view Index.
+2023-04-13 23:45:52.485 +05:30 [INF] Executed ViewResult - view Index executed in 3.2238ms.
+2023-04-13 23:45:52.485 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.Index (FirstApp) in 7.2188ms
+2023-04-13 23:45:52.485 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.Index (FirstApp)'
+2023-04-13 23:45:52.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard?EmployeeId=00000000-0000-0000-0000-000000000000&EmailId=abinashabinash711@gmail.com&userPassword=Abinash@24&DateOfBirth=01%2F01%2F0001%2000%3A00%3A00 - - - 200 - text/html;+charset=utf-8 10.7846ms
+2023-04-13 23:45:52.509 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:52.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.1794ms
+2023-04-13 23:45:54.954 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - -
+2023-04-13 23:45:54.958 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:45:54.960 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:45:54.962 +05:30 [INF] Executing ViewResult, running view bookRide.
+2023-04-13 23:45:54.967 +05:30 [INF] Executed ViewResult - view bookRide executed in 6.1963ms.
+2023-04-13 23:45:54.967 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 6.3962ms
+2023-04-13 23:45:54.967 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:45:54.967 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/bookRide - - - 200 - text/html;+charset=utf-8 13.1936ms
+2023-04-13 23:45:54.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:45:54.988 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2001ms
+2023-04-13 23:46:01.295 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278
+2023-04-13 23:46:01.296 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:46:01.299 +05:30 [INF] Route matched with {action = "bookRide", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult bookRide(FirstApp.Models.CurrentUser) on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:46:01.409 +05:30 [INF] Executing RedirectResult, redirecting to /Dashboard/seatBooked?Date=2023-04-13&Destination=option3.
+2023-04-13 23:46:01.410 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.bookRide (FirstApp) in 110.4649ms
+2023-04-13 23:46:01.410 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.bookRide (FirstApp)'
+2023-04-13 23:46:01.410 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5260/Dashboard/bookRide application/x-www-form-urlencoded 278 - 302 0 - 114.4812ms
+2023-04-13 23:46:01.417 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option3 - -
+2023-04-13 23:46:01.418 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:46:01.418 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:46:01.418 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:46:01.419 +05:30 [INF] Executed ViewResult - view seatBooked executed in 0.8791ms.
+2023-04-13 23:46:01.419 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 1.0407ms
+2023-04-13 23:46:01.419 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:46:01.419 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option3 - - - 200 - text/html;+charset=utf-8 2.1194ms
+2023-04-13 23:46:01.463 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:46:01.463 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.2620ms
+2023-04-13 23:52:29.259 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option3 - -
+2023-04-13 23:52:29.260 +05:30 [INF] Executing endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:52:29.262 +05:30 [INF] Route matched with {action = "seatBooked", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult seatBooked() on controller FirstApp.Controllers.DashboardController (FirstApp).
+2023-04-13 23:52:29.267 +05:30 [INF] Executing ViewResult, running view seatBooked.
+2023-04-13 23:52:29.284 +05:30 [INF] Executed ViewResult - view seatBooked executed in 21.5117ms.
+2023-04-13 23:52:29.284 +05:30 [INF] Executed action FirstApp.Controllers.DashboardController.seatBooked (FirstApp) in 21.729ms
+2023-04-13 23:52:29.284 +05:30 [INF] Executed endpoint 'FirstApp.Controllers.DashboardController.seatBooked (FirstApp)'
+2023-04-13 23:52:29.284 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/Dashboard/seatBooked?Date=2023-04-13&Destination=option3 - - - 200 - text/html;+charset=utf-8 25.6510ms
+2023-04-13 23:52:29.335 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - -
+2023-04-13 23:52:29.336 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5260/_framework/aspnetcore-browser-refresh.js - - - 200 11966 application/javascript;+charset=utf-8 0.4630ms

@@ -1,30 +1,28 @@
-// Title       :Online Bus Booking System
-//  Author      :Abinash(IFET)
-// Created at  :01-03-2023
-// Updated at  :13-03-2023
-// Reviewed by :
-// Reviewed at :
 
 using System.Data.SqlClient;
 using System.Data;
 using System.Net;
 using System.Net.Mail;
 using System.ComponentModel.DataAnnotations;
+using System.Collections;
 
 namespace FirstApp.Models
 {
 
-    public class Database{
-      public bool Admin{get;set;}
+public class Database{
+      public bool Admin=false;
       [Required]
 [DataType(DataType.Password)]
 [MinLength(6,ErrorMessage="Code must contain 6 digits")]
         public string? userInput{get;set;}
-  public string to="abinashabinash711@gmail.com";
+  public string to="devanathan640@gmail.com@gmail.com";
   public bool KeepLoggedIn{get;set;}
         public static string? password{get;set;}
       private  static string? randomCode;
-        static SqlConnection sqlconnection=new SqlConnection("Data Source=JOSEPHABI;Initial Catalog=BusBooking;Integrated Security=True");
+     
+public string? Date{get;set;}
+public string? Destination{get;set;}
+        static SqlConnection sqlconnection=new SqlConnection("Data Source=deva-pc\\sqlexpress;Initial Catalog=BusBooking;Integrated Security=True");
         static public string login(Employee employee)
         {
                 sqlconnection.Open();
@@ -38,7 +36,7 @@ namespace FirstApp.Models
                 {                 
                   return "success";         
                 }
-                else if ((employee.EmailId=="Admin@gmail.com") && (employee.userPassword=="Admin"))
+                else if ((employee.EmailId=="admin@gmail.com") && (employee.userPassword=="Admin@1234"))
                 {
                   return "Admin"; 
                 }
@@ -100,5 +98,21 @@ static public string verifyCode(Database database){
                 sqlconnection.Close();
                 return password;
     }
+    public static IEnumerable<Database> GetHistory(string userName)  
+        {  List<Database> History=new  List<Database> ();
+                SqlCommand cmd = new SqlCommand("GetCurrentUserHistory", sqlconnection);  
+                cmd.CommandType = CommandType.StoredProcedure;  
+                cmd.Parameters.AddWithValue("@Name",userName);
+                sqlconnection.Open();  
+                SqlDataReader rdr = cmd.ExecuteReader();  
+                while (rdr.Read())  
+                {     Database user=new Database();
+                    user.Date= rdr["Date"].ToString();  
+                    user.Destination = rdr["Destination"].ToString();  
+                    History.Add(user);  
+                }  
+                sqlconnection.Close(); 
+                return History;
+        }  
 }
 }

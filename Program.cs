@@ -1,15 +1,13 @@
-// Title       :Online Bus Booking System
-// Author      :Abinash(IFET)
-// Created at  :01-03-2023
-// Updated at  :13-03-2023
-// Reviewed by :
-// Reviewed at : 
 
 using FirstApp.Data;
+using FirstApp.Filters;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Serilog;
+using System.Net.Http.Headers;
+using Microsoft.OpenApi.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,8 +17,19 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<EmployeeDBContext>(options =>
   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Add services to the container.
+builder.Services.AddScoped<LogActionFilterAttribute>();
 builder.Services.AddControllersWithViews();
-
+var configuration = builder.Configuration;
+var apiEndpoint = configuration["ApiEndpoint"];
+            builder.Services.AddHttpClient("api", client =>
+            {
+                client.BaseAddress = new Uri(apiEndpoint);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("IdentityManagement/json"));
+            });
+builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Signup", Version = "v1" });
+            });
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -42,7 +51,6 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -58,7 +66,11 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseAuthentication();
-
+app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Signup v1");
+            });
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

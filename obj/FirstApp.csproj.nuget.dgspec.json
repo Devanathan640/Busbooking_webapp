@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abi6\\Desktop\\FirstApp\\FirstApp.csproj": {}
+    "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\FirstApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abi6\\Desktop\\FirstApp\\FirstApp.csproj": {
+    "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\FirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abi6\\Desktop\\FirstApp\\FirstApp.csproj",
+        "projectUniqueName": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\FirstApp.csproj",
         "projectName": "FirstApp",
-        "projectPath": "C:\\Users\\abi6\\Desktop\\FirstApp\\FirstApp.csproj",
-        "packagesPath": "C:\\Users\\abi6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abi6\\Desktop\\FirstApp\\obj\\",
+        "projectPath": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\FirstApp.csproj",
+        "packagesPath": "C:\\Users\\Admins\\.nuget\\packages\\",
+        "outputPath": "D:\\AspireSystems\\bus booking system\\WebApi\\FirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abi6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admins\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,6 +65,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -94,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
